@@ -1,1 +1,32 @@
-{}
+{
+    "91b9ece9.a2b7c8": {
+        "user": "${MQTT_USER7P7XWK}",
+        "password": "${MQTT_PASS7P7XWK}"
+    },
+    "2c19e25.da87a1e": {
+        "user": "${MQTT_USER5YRUSP}",
+        "password": "${MQTT_PASS5YRUSP}"
+    },
+    "7a9420f5.e27f58": {
+        "user": "${MQTT_USER7P7XWK}",
+        "password": "${MQTT_PASS7P7XWK}"
+    },
+    "612b8eb7.d1904": {
+        "user": "${MQTT_USER5YRUSP}",
+        "password": "${MQTT_PASS5YRUSP}"
+    },
+    "4d4e4d7b.7cc1dc": {},
+    "29a2e2f4.85bcd6": {
+        "user": "${MQTT_USER7P7XWK}",
+        "password": "${MQTT_PASS7P7XWK}"
+    },
+    "e8c39ea1.bf699": {
+        "user": "${MQTT_USER5YRUSP}",
+        "password": "${MQTT_PASS5YRUSP}"
+    },
+    "3f3bde5e.f86fda": {
+        "user": "use-auth-token",
+        "password": "OpenEEW-sens0r"
+    },
+    "a4bb7836.dbfd5": {}
+}

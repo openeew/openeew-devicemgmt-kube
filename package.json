@@ -1,8 +1,32 @@
 {
     "name": "Earthquakes",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
-    "dependencies": {},
+    "description": "OpenEEW Device Mgmt",
+    "version": "1.0.0",
+    "author": "John Walicki <johnwalicki@gmail.com>",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/openeew/openeew-devicemgmt-kube.git"
+    },
+    "keywords": [
+        "node-red",
+        "earthquakes",
+        "openeew",
+        "seismology"
+    ],
+    "dependencies": {
+        "node-red": "2.x",
+        "node-red-dashboard": "2.x",
+        "node-red-node-ui-table": "0.x",
+        "node-red-contrib-scx-ibmiotapp": "0.0.49",
+        "node-red-node-cf-cloudant": "0.2.17",
+        "node-red-node-ui-list": "0.x",
+        "node-red-contrib-ibm-wiotp-device-ops": "0.1.3",
+        "node-red-contrib-ui-svg": "2.x"
+    },
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS --userDir /data"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
