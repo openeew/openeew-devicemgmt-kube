@@ -1,7 +1,5 @@
 # OpenEEW Device Management - Node-RED
 
-===========
-
 This set of Node-RED flows control the on-boarding and activation of OpenEEW
 sensors, orchestrates the provisioning of sensors and provides a simple dashboard
 for excerising the various MQTT command messages.
@@ -71,6 +69,25 @@ deployed to the OpenEEW infrastructure hosted by IBM Cloud Kubernetes Service (I
 ### MQTT Secrets
 
 Various MQTT secrets are required to run this containerized Node-RED flow.
+
+## Building the openeew-devicemgmt Node-RED container
+
+To build, run, test the OpenEEW DeviceMgmt Node-RED container on your local system:
+
+```bash
+make build
+make run
+make test
+make ui
+```
+
+To push the Node-RED container to us.icr.io for deployment to the Kubernetes cluster:
+
+```bash
+make login
+make push
+make kube
+```
 
 ### Contributors
 
