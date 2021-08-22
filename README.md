@@ -44,11 +44,24 @@ This repo and Node-RED flow implements a simple Node-RED Dashboard to send MQTT 
 to the selected OpenEEW Sensor.  It excerises the MQTT topics described in the
 [OpenEEW Firmware and MQTT readme](https://github.com/openeew/openeew-firmware/blob/main/FIRMWARE.md)
 
-Todos:
+![Node-RED Flow of OpenEEW Control Sensors](screenshots/Flow-OpenEEW-ControlSensors-via-MQTT.png)
 
-- Screenshot of the Node-RED flow
-- Describe the sections of the Node-RED flow and how it sends MQTT commands
-- Screenshot of the Node-RED Dashboard
+### Description of Node-RED flow Sections
+
+- **Load List of OpenEEW Devices** : Read the online / offline status of the devices from the Cloudant DB, build a table array using JSONata, display the table of sensors, store the selected sensor in a flow variable.
+- **Control OpenEEW Device** : Send the command via MQTT to the selected sensor.
+- **Earthquake Alert Test** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/earthquake/fmt/json` to the selected sensor.
+- **Firmware Check** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/firmwarecheck/fmt/json` to the selected sensor.
+- **Send 10 second History** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/10secondhistory/fmt/json` to the selected sensor.
+- **Send Live Data** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/sendacceldata/fmt/json` to the selected sensor.
+- **Change Sample Rate** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/samplerate/fmt/json` to the selected sensor.
+- **Restart the Sensor** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/forcerestart/fmt/json` to the selected sensor.
+- **Factory Reset** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/factoryreset/fmt/json` to the selected sensor.
+- **Override STA / LTA Threshold** : Send `iot-2/type/OpenEEW/id/mac-address/cmd/threshold/fmt/json` to the selected sensor.
+
+### Screenshot of the **Control OpenEEW Devices** dashboard
+
+![Control OpenEEW Devices Node-RED Dashboard](screenshots/Dashboard-OpenEEW-ControlSensors-via-MQTT.png)
 
 ## OpenEEW Earthquake Accelometer Display
 
@@ -56,10 +69,20 @@ The main [OpenEEW Dashboard](https://dashboard.openeew.com/) is quite a bit more
 Node-RED flow implements a simple Node-RED dashboard to display accelometer readings from a selected
 OpenEEW sensor.
 
-Todos:
+![Node-RED Flow of OpenEEW Sensor Plot](screenshots/Flow-OpenEEW-SensorPlot.png)
 
-- Screenshot of the Node-RED flow
-- Screenshot of the Node-RED dashboard
+### Description of Node-RED flow Sections
+
+- **Enable / Disable Seismic Sensor Charts** : Display a switch that the admin can toggle on/off to control the graph and reset the chart.
+- **Load List of OpenEEW Devices** : Read the online / offline status of the devices and build a table array using JSONata.
+- **Select an OpenEEW Sensor Network sensor to plot** : Store the selected sensor in a flow variable if it has changed. Reset the chart.
+- **Chart Scale Switch State** : a bunch of toggles that lets the admin choose the scale of the graph.
+- **Plot selected real-time sensor data** : filter the incoming MQTT events for the selected sensor, transform the X/Y/Z arrays, split them into individual messages, reduce the volume of data, plot the seismic waveform on one graph (instead of three graphs)
+- **Send Live Data** - Send a MQTT command to the selected sensor to start transmiting live data.
+
+### Screenshot of the **Real Time OpenEEW Device Plot** dashboard
+
+![Node-RED OpenEEW Sensor Plot Dashboard](screenshots/Dashboard-OpenEEW-SensorPlot.png)
 
 ## Kubernetes Implementation
 
