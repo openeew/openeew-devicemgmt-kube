@@ -702,7 +702,7 @@
         "id": "55991bb1.5b0c4c",
         "type": "group",
         "z": "dbe71947.9c2ef",
-        "name": "Send Live Data",
+        "name": "Override STA / LTA Threshold",
         "style": {
             "stroke": "#ff0000",
             "fill": "#ffefbf",
@@ -856,7 +856,6 @@
             "25e77e13.2b4e8a",
             "baa7cc14.aae56",
             "8b63adbb.162b",
-            "60a8e09.c09732",
             "f2a28470c3f95866"
         ],
         "x": 974,
