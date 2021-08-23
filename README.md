@@ -1,10 +1,10 @@
 # OpenEEW Device Management - Node-RED
 
 This set of Node-RED flows control the on-boarding and activation of OpenEEW
-sensors, orchestrates the provisioning of sensors and provides a simple dashboard
-for excerising the various MQTT command messages.
+sensors, orchestrate the provisioning of sensors, monitor the status of sensors,
+and provide a simple dashboard for exercising the various MQTT command messages.
 
-## Onboarding and Activation
+## Activation
 
 Every time an OpenEEW sensor powers up it calls an API asking for its MQTT broker.
 This Device Management service endpoint API is implemented by a Node-RED flow in this repo.
@@ -16,11 +16,21 @@ The [OpenEEW sensor firmware](https://github.com/openeew/openeew-firmware) deter
 if it needs to upgrade its firmware, otherwise, it makes a connection to the MQTT
 broker.
 
+![Node-RED Flow of OpenEEW Device Management](screenshots/Flow-OpenEEW-DeviceMgmt-Activation.png)
+
+### Description of Node-RED flow Sections
+
+Activation performs a variety of device management tasks in this flow.  The API service endpoint replies with the MQTT broker, updates the Cloudant DB, and, if necessary, creates a new Watson IoT Platform device.
+
+- **Globals** :
+- **OpenEEW Activation Endpoint (ESP32 Sensor Board)** :
+- **Watson IoT Activation Endpoint v1** :
+- **VerneMQ Activation Endpoint v2** :
+- **Store / Update Device Details in Cloudant DB** :
+
 Todos:
 
-- Screenshot of the Node-RED flow
 - Architectural diagram of how this Node-RED flow interacts with the OpenEEW sensors
-- Describe the sections of the Node-RED flow and how they write data to Cloudant
 - API implementation details
 
 ## Provisioning
@@ -31,17 +41,39 @@ it collects geolocation information and ownership information from the mobile ap
 This information is sent to an API implemented by a Node-RED flow in this repo.
 The metadata details are written / updated in a Cloudant database by this Node-RED flow.
 
+![Node-RED Flow of OpenEEW Device Management](screenshots/Flow-OpenEEW-DeviceMgmt-Provisioning.png)
+
+### Description of Node-RED flow Sections
+
+- **OpenEEW User Account Endpoint (Mobile App)** :
+- **OpenEEW Registration Endpoint (Mobile App)** :
+- **Manual Import of Devices to Cloudant** :
+- **Respond to HTTP Request** :
+- **Store / Update Device Location / Owner Details in Cloudant DB** :
+
 Todos:
 
-- Screenshot of the Node-RED flow
 - Architectural diagram of how this Node-RED flow interacts with the OpenEEW Provisioner app
-- Describe the sections of the Node-RED flow and how they write data to Cloudant
 - API implementation details
+
+## Monitoring
+
+OpenEEW Device Status can be monitored by subscribing to a Watson IoT MQTT topic
+`iot-2/type/OpenEEW/id/+/mon` and then writing the
+Connect / Disconnect messages and timestamps to the Cloudant DB. This allows the various Dashboards to query the DB and show status of the devices without keeping state of when a device was last on-line / connected. The device status metadata details are written / updated in a Cloudant database by this Node-RED flow.
+
+![Node-RED Flow of OpenEEW Device Management](screenshots/Flow-OpenEEW-DeviceMgmt-Monitoring.png)
+
+### Description of Node-RED flow Sections
+
+- **Update Device Connect / Disconnect status in Cloudant DB** :
+- **Debug - List OpenEEW Devices Registered to Watson IoT Platform** :
+- **List Cloudant OpenEEW Device Database** :
 
 ## Send MQTT Commands to OpenEEW Sensors
 
 This repo and Node-RED flow implements a simple Node-RED Dashboard to send MQTT commands
-to the selected OpenEEW Sensor.  It excerises the MQTT topics described in the
+to the selected OpenEEW Sensor.  It exercises the MQTT topics described in the
 [OpenEEW Firmware and MQTT readme](https://github.com/openeew/openeew-firmware/blob/main/FIRMWARE.md)
 
 ![Node-RED Flow of OpenEEW Control Sensors](screenshots/Flow-OpenEEW-ControlSensors-via-MQTT.png)
