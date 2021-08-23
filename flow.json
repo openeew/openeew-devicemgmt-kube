@@ -16,7 +16,21 @@
     {
         "id": "91d8d0e3.111f78",
         "type": "tab",
-        "label": "Activation",
+        "label": "ESP32 Activation",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "679a7bd6a8e81949",
+        "type": "tab",
+        "label": "Provisioning App",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c144587dbcbcc3b8",
+        "type": "tab",
+        "label": "Device Monitoring",
         "disabled": false,
         "info": ""
     },
@@ -220,9 +234,7 @@
             "20f80eef.b04e9a"
         ],
         "x": 54,
-        "y": 299,
-        "w": 972,
-        "h": 182
+        "y": 299
     },
     {
         "id": "86d64079.5cf58",
@@ -258,9 +270,7 @@
             "d9e6ed30.4aef68"
         ],
         "x": 54,
-        "y": 1239,
-        "w": 1192,
-        "h": 322
+        "y": 1239
     },
     {
         "id": "9cf1823c.e1d0f8",
@@ -292,9 +302,7 @@
             "12a82db6.614baa"
         ],
         "x": 54,
-        "y": 899,
-        "w": 1052,
-        "h": 322
+        "y": 899
     },
     {
         "id": "c8fcfa53.af0308",
@@ -324,41 +332,13 @@
             "51684c81.a6bab4"
         ],
         "x": 54,
-        "y": 59,
-        "w": 1012,
-        "h": 222
-    },
-    {
-        "id": "18a65375.d6c8c5",
-        "type": "group",
-        "z": "91d8d0e3.111f78",
-        "name": "OpenEEW Registration Endpoint (Mobile App)",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffefbf",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "7b661d2.2ab4a64",
-            "870379ea.f26728",
-            "9440ebee.7b857",
-            "985a68.d157ed98",
-            "74f9964a.8fd8f",
-            "30cfaf10.da7df",
-            "f7997610.fcfd28"
-        ],
-        "x": 14,
-        "y": 659,
-        "w": 882,
-        "h": 142
+        "y": 59
     },
     {
         "id": "38984c09.dd023c",
         "type": "group",
         "z": "91d8d0e3.111f78",
-        "name": "Activation Endpoint v1",
+        "name": "Watson IoT Activation Endpoint v1",
         "style": {
             "stroke": "#ff0000",
             "fill": "#ffefbf",
@@ -390,39 +370,9 @@
             "b0ebc8ee067c0b22"
         ],
         "x": 14,
-        "y": 1539,
-        "w": 1432,
+        "y": 299,
+        "w": 1392,
         "h": 342
-    },
-    {
-        "id": "45f0bef2.3b2b18",
-        "type": "group",
-        "z": "91d8d0e3.111f78",
-        "name": "Debug - List OpenEEW Devices Registered to Watson IoT Platform",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffefbf",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "e9b2f3aa.d0ad58",
-            "a6d0107f.2f376",
-            "63864666.84296",
-            "7f215104.78f288",
-            "f044f485.4b8ab8",
-            "f35786dc.b296a8",
-            "464be4a6.831704",
-            "edf556ad.a776d8",
-            "7a98c50b.5f9aac",
-            "24d73cc7.19282c",
-            "376450f5.1ccc6"
-        ],
-        "x": 14,
-        "y": 1899,
-        "w": 1432,
-        "h": 162
     },
     {
         "id": "737f93ad.6da5fc",
@@ -443,8 +393,8 @@
             "11cbccde.65d013",
             "66ce1ea3.97ca88"
         ],
-        "x": 914,
-        "y": 559,
+        "x": 694,
+        "y": 719,
         "w": 572,
         "h": 142
     },
@@ -471,7 +421,7 @@
             "a224ba33f87d66ad"
         ],
         "x": 14,
-        "y": 479,
+        "y": 119,
         "w": 882,
         "h": 162
     },
@@ -479,7 +429,7 @@
         "id": "f7c2dba2.d0ba4",
         "type": "group",
         "z": "91d8d0e3.111f78",
-        "name": "Store / Update Device and Owner Details in Cloudant DB ",
+        "name": "Store / Update Device Details in Cloudant DB ",
         "style": {
             "stroke": "#ff0000",
             "fill": "#ffefbf",
@@ -488,47 +438,25 @@
             "color": "#000000"
         },
         "nodes": [
-            "7880732e.53aca4",
-            "cd8cd375.1a64f8",
-            "9f42931f.d4b8c8",
-            "9c3f9f9.23ee8e",
             "4dc5ba4e.96c96c",
             "3816a583.10ea4a",
             "908208ac.a02578",
             "9ba900fc.f4f768",
-            "522c1a1c.697474",
             "5cfd78de.ddb25",
             "706cc528.250634",
-            "85bde42d.c869b",
-            "2d6b749d.4cb68c",
-            "b05012ba.b18de",
-            "d1827581.4b92e",
-            "35213621.23751a",
-            "ba727755.0cdc38",
-            "53942059.c63738",
             "c74eb96a.8ff8d",
             "dc5f308.2739dd",
             "8c147be6.ae7138",
-            "528f831c.3fac7c",
             "6a6a7390.bfd65c",
-            "f9537392.9851e",
             "89148970.6a2a98",
-            "319fbdbd.f0d0e2",
-            "77101cc.7eca7e4",
-            "5899726d.38237c",
-            "95fa5749.f053a8",
-            "69a01aae.b2ea44",
-            "39df4100.cedfde",
-            "bd5adc56.3b307",
-            "7220682b.7f7948",
-            "13540543.64f90b",
-            "84b60d9b.270f18",
-            "76a1e3211d3e70aa"
+            "76a1e3211d3e70aa",
+            "5bfa15c09e1ed551",
+            "475bfe278f8c3436"
         ],
         "x": 14,
-        "y": 979,
-        "w": 1412,
-        "h": 542
+        "y": 919,
+        "w": 1252,
+        "h": 282
     },
     {
         "id": "fc79d93.5232128",
@@ -582,66 +510,6 @@
         "h": 222
     },
     {
-        "id": "6d551e1b.cd04e8",
-        "type": "group",
-        "z": "91d8d0e3.111f78",
-        "name": "List Cloudant OpenEEW Device Database",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffefbf",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "28ba9e73.8b67c2",
-            "ae58a1b5.6c9ad",
-            "bd4857ec.0b8b38"
-        ],
-        "x": 14,
-        "y": 2079,
-        "w": 592,
-        "h": 82
-    },
-    {
-        "id": "6eee7282.811ef4",
-        "type": "group",
-        "z": "91d8d0e3.111f78",
-        "name": "OpenEEW User Account Endpoint (Mobile App)",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffefbf",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "f6f12d7c.a7f738",
-            "6d0dadc0.4e4e84",
-            "a1032171.e6cf9",
-            "12a11c85.7cd50b",
-            "3939d61c.a2efb2",
-            "65af511f.03b4",
-            "1d63fd41.c7d2a3",
-            "291c0648.b95882",
-            "ea040c46.5a901",
-            "a4bb7836.dbfd5",
-            "58c5a396.ad5914",
-            "dc429b0.be5b6e8",
-            "f00de35.a01382",
-            "281adb37.5782f4",
-            "2ddc96dc.3dbb92",
-            "69c6bd74.8f06c4",
-            "abe3883e.ad8ce8",
-            "fb107dac.6047b8",
-            "2c4de2b3.11b8f6"
-        ],
-        "x": 14,
-        "y": 119,
-        "w": 942,
-        "h": 342
-    },
-    {
         "id": "fc715e74.69f67",
         "type": "group",
         "z": "dbe71947.9c2ef",
@@ -665,9 +533,7 @@
             "dc595a5e.eaa918"
         ],
         "x": 54,
-        "y": 1579,
-        "w": 972,
-        "h": 182
+        "y": 1579
     },
     {
         "id": "fc456075.0f6bf8",
@@ -694,9 +560,7 @@
             "ad222b80.a161d"
         ],
         "x": 54,
-        "y": 1779,
-        "w": 972,
-        "h": 182
+        "y": 1779
     },
     {
         "id": "55991bb1.5b0c4c",
@@ -726,9 +590,7 @@
             "a8a57366.bd303"
         ],
         "x": 54,
-        "y": 1979,
-        "w": 1112,
-        "h": 242
+        "y": 1979
     },
     {
         "id": "a6a39970.38d9a8",
@@ -754,9 +616,7 @@
             "ff744c76.c480e8"
         ],
         "x": 54,
-        "y": 699,
-        "w": 972,
-        "h": 182
+        "y": 699
     },
     {
         "id": "1011bad6.dc08a5",
@@ -782,9 +642,7 @@
             "c9e90459.8e7638"
         ],
         "x": 54,
-        "y": 499,
-        "w": 972,
-        "h": 182
+        "y": 499
     },
     {
         "id": "46e69648.8c8a58",
@@ -806,9 +664,7 @@
             "7e508802.e6a7d"
         ],
         "x": 1094,
-        "y": 59,
-        "w": 412,
-        "h": 182
+        "y": 59
     },
     {
         "id": "a2601f7c8df47951",
@@ -840,7 +696,7 @@
         "id": "33d13166.4995c6",
         "type": "group",
         "z": "91d8d0e3.111f78",
-        "name": "vernaMQ Activation v2",
+        "name": "VerneMQ Activation v2",
         "style": {
             "stroke": "#ff0000",
             "label": true,
@@ -858,10 +714,241 @@
             "8b63adbb.162b",
             "f2a28470c3f95866"
         ],
-        "x": 974,
-        "y": 119,
+        "x": 14,
+        "y": 659,
         "w": 602,
         "h": 242
+    },
+    {
+        "id": "e5b32b045eedbba8",
+        "type": "group",
+        "z": "679a7bd6a8e81949",
+        "name": "OpenEEW Registration Endpoint (Mobile App)",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "72cd30a2f7294311",
+            "cc9a48cc41bb7a9c",
+            "69c9c4a0b3a125d6",
+            "6e9253ba95490f45",
+            "6f23acc26b04ba1f",
+            "7dd7685c24ac4d72",
+            "b99b4f1386f1a6d5"
+        ],
+        "x": 14,
+        "y": 399,
+        "w": 942,
+        "h": 142
+    },
+    {
+        "id": "ef2758e3b985c70c",
+        "type": "group",
+        "z": "679a7bd6a8e81949",
+        "name": "OpenEEW User Account Endpoint (Mobile App)",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "d8ec81585a98f043",
+            "fedf2d8d9a727a4c",
+            "c48fa06633d3c512",
+            "dd42c05ba804c5cb",
+            "335e641dfa6606e9",
+            "bc0b297a2678b2a9",
+            "93ad7b85ab2436b9",
+            "8b6c380277420d89",
+            "ca200d9dcc4befa7",
+            "04014214feec6e63",
+            "aa740c2fda6ccd62",
+            "f92c635d15578498",
+            "25c80ccc99edda23",
+            "e4a09176c84bb44d",
+            "e002fabc41131996",
+            "853740ff2bbe60dd",
+            "1412ba9d4f1b21bb",
+            "c20da5135d450c5d",
+            "08f096e60dd59bdb"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 942,
+        "h": 342
+    },
+    {
+        "id": "0d920719a6f72558",
+        "type": "group",
+        "z": "679a7bd6a8e81949",
+        "name": "Respond to HTTP Request",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "66b84803d9695bbd",
+            "3b0f7a8754ea899e",
+            "13a9fa8719ba3c7b",
+            "dcdc0fc24e1f3a42",
+            "4bf550e494b4b9bb"
+        ],
+        "x": 794,
+        "y": 579,
+        "w": 572,
+        "h": 142
+    },
+    {
+        "id": "2df60891489ed3cc",
+        "type": "group",
+        "z": "679a7bd6a8e81949",
+        "name": "Store / Update Device Location / Owner Details in Cloudant DB ",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "1c8f3aca20d2e48b",
+            "6685dd2178c00b1c",
+            "ac9b036ce3e20e95",
+            "9e4a253a0ed46f12",
+            "1b172277ac03faa9",
+            "9a40c5e85d7094cf",
+            "ea78624d263521ad",
+            "f3c27d1cacba9659",
+            "dfe09c244c57fcc4",
+            "f82a87cca068f448",
+            "e42e10ef609fcce5",
+            "e4cd3431bfa9c7e4",
+            "0828e91d605900a4",
+            "59efd29a0c41395a",
+            "870b9fb32ca6ee75",
+            "309cb361c9dded0d"
+        ],
+        "x": 14,
+        "y": 759,
+        "w": 1352,
+        "h": 182
+    },
+    {
+        "id": "2d4a3aca377038b0",
+        "type": "group",
+        "z": "c144587dbcbcc3b8",
+        "name": "Update Device Connect / Disconnect status in Cloudant DB ",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "451c58f61b0e899b",
+            "f6dff7e6a93269d4",
+            "f5c7a405efee1c2b",
+            "9b35e9ab992bca59",
+            "381ba8e5d4342111",
+            "907c02b67aaf24af",
+            "1acdf28c938148f1",
+            "64eaa696bf43a2dd",
+            "5d1141462b39b4d4",
+            "30a5f73e73bf98cd",
+            "20a3a7739423e9a7",
+            "3dd4de92a9bb9b70"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 1152,
+        "h": 282
+    },
+    {
+        "id": "a581fa89366d3b78",
+        "type": "group",
+        "z": "c144587dbcbcc3b8",
+        "name": "Debug - List OpenEEW Devices Registered to Watson IoT Platform",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "1c58b1f870d2c22e",
+            "6604feb471fe8aa2",
+            "3e928a6cf42c947f",
+            "21606d7777b31fbc",
+            "4f03aeabe8037a1f",
+            "015beaaabeac0416",
+            "0659aa7fa0590815",
+            "565d991b8e451c80",
+            "74f12805dbc783c3",
+            "359eb44fb2ee58df",
+            "a0fe0a4f285ace8e"
+        ],
+        "x": 14,
+        "y": 419,
+        "w": 972,
+        "h": 242
+    },
+    {
+        "id": "2ab294f3e4b3a62c",
+        "type": "group",
+        "z": "c144587dbcbcc3b8",
+        "name": "List Cloudant OpenEEW Device Database",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "1de5d14138b04f9e",
+            "55d01d59e1a391bd",
+            "69916a6098d820ac"
+        ],
+        "x": 14,
+        "y": 699,
+        "w": 592,
+        "h": 82
+    },
+    {
+        "id": "3af4ebb2eb3aecc7",
+        "type": "group",
+        "z": "679a7bd6a8e81949",
+        "name": "Manual Import of Devices to Cloudant",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "66b07f12e32a0f23",
+            "7e31026eb27c13d2",
+            "c0c7574a1140d2bc",
+            "cc0d9c45a2c5d9b2",
+            "a1e0903fdcd3bde5",
+            "c6dbb2ff4700e4f9"
+        ],
+        "x": 14,
+        "y": 559,
+        "w": 612,
+        "h": 182
     },
     {
         "id": "c8ae23c4.05134",
@@ -3924,249 +4011,6 @@
         ]
     },
     {
-        "id": "e9b2f3aa.d0ad58",
-        "type": "device-manager",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "auth": "api",
-        "name": "List All OpenEEW Devices",
-        "apiKey": "612b8eb7.d1904",
-        "deviceType": "OpenEEW",
-        "method": "GetAll",
-        "deviceId": "",
-        "password": "",
-        "ignore": false,
-        "x": 320,
-        "y": 1980,
-        "wires": [
-            [
-                "a6d0107f.2f376",
-                "f044f485.4b8ab8"
-            ]
-        ]
-    },
-    {
-        "id": "a6d0107f.2f376",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 550,
-        "y": 1940,
-        "wires": []
-    },
-    {
-        "id": "63864666.84296",
-        "type": "inject",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 1980,
-        "wires": [
-            [
-                "e9b2f3aa.d0ad58"
-            ]
-        ]
-    },
-    {
-        "id": "7f215104.78f288",
-        "type": "device-manager",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "auth": "api",
-        "name": "Get Location Details",
-        "apiKey": "612b8eb7.d1904",
-        "deviceType": "OpenEEW",
-        "method": "GetLoc",
-        "deviceId": "",
-        "password": "",
-        "ignore": false,
-        "x": 780,
-        "y": 1980,
-        "wires": [
-            [
-                "edf556ad.a776d8",
-                "376450f5.1ccc6"
-            ]
-        ]
-    },
-    {
-        "id": "f044f485.4b8ab8",
-        "type": "function",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "Get Details",
-        "func": "//var devices = [];\nfor( i=0; i < msg.payload.results.length; i++ ) {\n    //devices.push(msg.payload.results[i].deviceId);\n    var newmsg = {};\n    newmsg.topic = msg.payload.results[i].deviceId;\n    newmsg.parts = {\"count\" : msg.payload.results.length };\n    newmsg.payload = {\"deviceId\" : msg.payload.results[i].deviceId } ;\n    node.send(newmsg);\n}\n//msg.payload = devices;\nreturn null;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 1980,
-        "wires": [
-            [
-                "f35786dc.b296a8",
-                "7f215104.78f288"
-            ]
-        ]
-    },
-    {
-        "id": "f35786dc.b296a8",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 750,
-        "y": 1940,
-        "wires": []
-    },
-    {
-        "id": "464be4a6.831704",
-        "type": "inject",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"deviceId\":\"246F28CCE88C\"}",
-        "payloadType": "json",
-        "x": 550,
-        "y": 2020,
-        "wires": [
-            [
-                "7f215104.78f288"
-            ]
-        ]
-    },
-    {
-        "id": "edf556ad.a776d8",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 1940,
-        "wires": []
-    },
-    {
-        "id": "7a98c50b.5f9aac",
-        "type": "join",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "mode": "custom",
-        "build": "array",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "count",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1170,
-        "y": 1980,
-        "wires": [
-            [
-                "24d73cc7.19282c"
-            ]
-        ]
-    },
-    {
-        "id": "24d73cc7.19282c",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1330,
-        "y": 1980,
-        "wires": []
-    },
-    {
-        "id": "376450f5.1ccc6",
-        "type": "change",
-        "z": "91d8d0e3.111f78",
-        "g": "45f0bef2.3b2b18",
-        "name": "Add deviceId",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload.deviceID",
-                "pt": "msg",
-                "to": "topic",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1010,
-        "y": 1980,
-        "wires": [
-            [
-                "7a98c50b.5f9aac"
-            ]
-        ]
-    },
-    {
         "id": "7e6257bc.48e188",
         "type": "comment",
         "z": "91d8d0e3.111f78",
@@ -4174,7 +4018,7 @@
         "name": "Register a new WIoTP device",
         "info": "",
         "x": 280,
-        "y": 1760,
+        "y": 520,
         "wires": []
     },
     {
@@ -4188,7 +4032,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 540,
+        "y": 180,
         "wires": [
             [
                 "92ef652c.2fb308",
@@ -4203,8 +4047,8 @@
         "z": "91d8d0e3.111f78",
         "g": "737f93ad.6da5fc",
         "name": "",
-        "x": 1410,
-        "y": 640,
+        "x": 1190,
+        "y": 800,
         "wires": [],
         "info": "// nrlint no-unconnected-http-nodes:off\n"
     },
@@ -4235,7 +4079,7 @@
         "repair": false,
         "outputs": 3,
         "x": 710,
-        "y": 540,
+        "y": 180,
         "wires": [
             [
                 "69e82714.27f61"
@@ -4275,8 +4119,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1170,
-        "y": 600,
+        "x": 950,
+        "y": 760,
         "wires": [
             [
                 "13bced9f.6aff1a"
@@ -4303,8 +4147,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1160,
-        "y": 660,
+        "x": 940,
+        "y": 820,
         "wires": [
             [
                 "13bced9f.6aff1a"
@@ -4321,7 +4165,7 @@
         "console": "false",
         "complete": "true",
         "x": 370,
-        "y": 520,
+        "y": 160,
         "wires": []
     },
     {
@@ -4346,7 +4190,7 @@
         "checkall": "true",
         "outputs": 2,
         "x": 440,
-        "y": 560,
+        "y": 200,
         "wires": [
             [
                 "38d4526b.e2bc7e"
@@ -4376,7 +4220,7 @@
         "repair": false,
         "outputs": 2,
         "x": 210,
-        "y": 1620,
+        "y": 380,
         "wires": [
             [
                 "900cf858.b8e83",
@@ -4429,8 +4273,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1720,
+        "x": 890,
+        "y": 480,
         "wires": [
             [
                 "1c74f812.6285c"
@@ -4450,8 +4294,8 @@
         "deviceId": "",
         "password": "",
         "ignore": false,
-        "x": 400,
-        "y": 1720,
+        "x": 360,
+        "y": 480,
         "wires": [
             [
                 "abaf4b69.81efe8",
@@ -4474,7 +4318,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 375,
-        "y": 1580,
+        "y": 340,
         "wires": [],
         "l": false
     },
@@ -4492,8 +4336,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1115,
-        "y": 1640,
+        "x": 1075,
+        "y": 400,
         "wires": [],
         "l": false
     },
@@ -4516,7 +4360,7 @@
         "payload": "{\"deviceId\":\"246F28CCE88E\",\"authToken\":\"OpenEEW-sens0r\"}",
         "payloadType": "json",
         "x": 140,
-        "y": 1720,
+        "y": 480,
         "wires": [
             [
                 "bc14c19b.d35bd"
@@ -4600,7 +4444,7 @@
         "to": "",
         "reg": false,
         "x": 500,
-        "y": 1620,
+        "y": 380,
         "wires": [
             [
                 "9445eb7.809e998",
@@ -4634,8 +4478,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 630,
-        "y": 1720,
+        "x": 610,
+        "y": 480,
         "wires": [
             [
                 "e7b5c5e5.05863"
@@ -4662,8 +4506,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 535,
-        "y": 1780,
+        "x": 515,
+        "y": 540,
         "wires": [],
         "l": false
     },
@@ -4686,8 +4530,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 930,
-        "y": 1660,
+        "x": 890,
+        "y": 420,
         "wires": [
             [
                 "6e573085.549ae",
@@ -4712,7 +4556,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 770,
-        "y": 1620,
+        "y": 340,
         "wires": []
     },
     {
@@ -4736,8 +4580,8 @@
             "281adb37.5782f4",
             "8b63adbb.162b"
         ],
-        "x": 955,
-        "y": 660,
+        "x": 735,
+        "y": 820,
         "wires": [
             [
                 "ba685dd5.439208"
@@ -4754,7 +4598,7 @@
             "11cbccde.65d013"
         ],
         "x": 635,
-        "y": 600,
+        "y": 240,
         "wires": []
     },
     {
@@ -4767,7 +4611,7 @@
             "11cbccde.65d013"
         ],
         "x": 855,
-        "y": 600,
+        "y": 240,
         "wires": []
     },
     {
@@ -4779,8 +4623,8 @@
         "links": [
             "11cbccde.65d013"
         ],
-        "x": 1115,
-        "y": 1680,
+        "x": 1075,
+        "y": 440,
         "wires": []
     },
     {
@@ -4792,8 +4636,8 @@
         "links": [
             "11cbccde.65d013"
         ],
-        "x": 855,
-        "y": 1840,
+        "x": 815,
+        "y": 600,
         "wires": []
     },
     {
@@ -4806,7 +4650,7 @@
             "11cbccde.65d013"
         ],
         "x": 375,
-        "y": 1660,
+        "y": 420,
         "wires": []
     },
     {
@@ -4816,14 +4660,12 @@
         "g": "737f93ad.6da5fc",
         "name": "Success 200",
         "links": [
-            "616abd73.3adbc4",
+            "25e77e13.2b4e8a",
             "522c1a1c.697474",
-            "9b73b2fc.719fe8",
-            "f00de35.a01382",
-            "25e77e13.2b4e8a"
+            "616abd73.3adbc4"
         ],
-        "x": 955,
-        "y": 600,
+        "x": 735,
+        "y": 760,
         "wires": [
             [
                 "e693db7d.24da28"
@@ -4839,8 +4681,8 @@
         "links": [
             "66ce1ea3.97ca88"
         ],
-        "x": 1375,
-        "y": 1800,
+        "x": 1335,
+        "y": 560,
         "wires": []
     },
     {
@@ -4853,7 +4695,7 @@
             "4017bebc.5eecf"
         ],
         "x": 855,
-        "y": 520,
+        "y": 160,
         "wires": []
     },
     {
@@ -4866,7 +4708,7 @@
             "69e82714.27f61"
         ],
         "x": 75,
-        "y": 1620,
+        "y": 380,
         "wires": [
             [
                 "67d61299.44f544"
@@ -4900,96 +4742,6 @@
         ]
     },
     {
-        "id": "7880732e.53aca4",
-        "type": "json",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 170,
-        "y": 1060,
-        "wires": [
-            [
-                "cd8cd375.1a64f8",
-                "522c1a1c.697474",
-                "9f42931f.d4b8c8"
-            ]
-        ]
-    },
-    {
-        "id": "cd8cd375.1a64f8",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 370,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "9f42931f.d4b8c8",
-        "type": "change",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload._id",
-                "pt": "msg",
-                "to": "$uppercase(payload.macaddress)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "openeew",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 380,
-        "y": 1060,
-        "wires": [
-            [
-                "9c3f9f9.23ee8e",
-                "528f831c.3fac7c"
-            ]
-        ],
-        "info": "The Flutter mobile app sends the MAC address in lowercase.  Use JSONata to uppercase the _id\nso that the Cloudant search by _id finds the\ncorrect match."
-    },
-    {
-        "id": "9c3f9f9.23ee8e",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 570,
-        "y": 1020,
-        "wires": []
-    },
-    {
         "id": "4dc5ba4e.96c96c",
         "type": "change",
         "z": "91d8d0e3.111f78",
@@ -5016,8 +4768,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 250,
-        "y": 1400,
+        "x": 290,
+        "y": 1000,
         "wires": [
             [
                 "6a6a7390.bfd65c"
@@ -5042,8 +4794,8 @@
         ],
         "checkall": "true",
         "outputs": 2,
-        "x": 750,
-        "y": 1400,
+        "x": 190,
+        "y": 1100,
         "wires": [
             [
                 "706cc528.250634"
@@ -5062,8 +4814,8 @@
         "active": true,
         "console": "false",
         "complete": "true",
-        "x": 1240,
-        "y": 1360,
+        "x": 1140,
+        "y": 1020,
         "wires": []
     },
     {
@@ -5075,168 +4827,8 @@
         "active": true,
         "console": "false",
         "complete": "true",
-        "x": 1240,
-        "y": 1460,
-        "wires": []
-    },
-    {
-        "id": "4cb91dfd.b592a4",
-        "type": "comment",
-        "z": "91d8d0e3.111f78",
-        "name": "ToDo - Build a Map to show status of devices",
-        "info": "",
-        "x": 870,
-        "y": 2120,
-        "wires": []
-    },
-    {
-        "id": "522c1a1c.697474",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Mobile Registration Success",
-        "links": [
-            "66ce1ea3.97ca88"
-        ],
-        "x": 315,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "7b661d2.2ab4a64",
-        "type": "http in",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "",
-        "url": "/OpenEEWRegistration",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 160,
-        "y": 720,
-        "wires": [
-            [
-                "9440ebee.7b857",
-                "985a68.d157ed98"
-            ]
-        ],
-        "info": "// nrlint no-unconnected-http-nodes:off\n"
-    },
-    {
-        "id": "870379ea.f26728",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "Registration Version",
-        "property": "req.query.ver",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 700,
-        "y": 720,
-        "wires": [
-            [
-                "f7997610.fcfd28"
-            ],
-            [
-                "30cfaf10.da7df"
-            ]
-        ]
-    },
-    {
-        "id": "9440ebee.7b857",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "",
-        "active": true,
-        "console": "false",
-        "complete": "true",
-        "x": 370,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "985a68.d157ed98",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "Check for plain content-type",
-        "property": "req.headers.content-type",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": "text/plain; charset=utf-8",
-                "vt": "str",
-                "case": true
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 440,
-        "y": 740,
-        "wires": [
-            [
-                "870379ea.f26728"
-            ],
-            [
-                "74f9964a.8fd8f"
-            ]
-        ]
-    },
-    {
-        "id": "74f9964a.8fd8f",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "Registration Fail on type",
-        "links": [
-            "11cbccde.65d013"
-        ],
-        "x": 615,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "30cfaf10.da7df",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "Registration Fail",
-        "links": [
-            "11cbccde.65d013"
-        ],
-        "x": 855,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "f7997610.fcfd28",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "18a65375.d6c8c5",
-        "name": "Endpoint V1",
-        "links": [
-            "85bde42d.c869b"
-        ],
-        "x": 855,
-        "y": 700,
+        "x": 1140,
+        "y": 1120,
         "wires": []
     },
     {
@@ -5266,8 +4858,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
-        "y": 1460,
+        "x": 420,
+        "y": 1140,
         "wires": [
             [
                 "dc5f308.2739dd"
@@ -5343,239 +4935,14 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 970,
-        "y": 1380,
+        "x": 410,
+        "y": 1080,
         "wires": [
             [
                 "908208ac.a02578",
                 "89148970.6a2a98"
             ]
         ]
-    },
-    {
-        "id": "85bde42d.c869b",
-        "type": "link in",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Reg Endpoint v1",
-        "links": [
-            "f7997610.fcfd28"
-        ],
-        "x": 75,
-        "y": 1060,
-        "wires": [
-            [
-                "7880732e.53aca4"
-            ]
-        ]
-    },
-    {
-        "id": "2d6b749d.4cb68c",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Exists",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "null"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "outputs": 2,
-        "x": 770,
-        "y": 1060,
-        "wires": [
-            [
-                "35213621.23751a"
-            ],
-            [
-                "ba727755.0cdc38"
-            ]
-        ]
-    },
-    {
-        "id": "b05012ba.b18de",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Create Record",
-        "active": true,
-        "console": "false",
-        "complete": "true",
-        "x": 1240,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "d1827581.4b92e",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Update Record",
-        "active": true,
-        "console": "false",
-        "complete": "true",
-        "x": 1240,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "35213621.23751a",
-        "type": "change",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "New OpenEEW Record",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "payload._id",
-                "pt": "msg",
-                "to": "$uppercase(openeew.macaddress)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "payload.DeviceID",
-                "pt": "msg",
-                "to": "$uppercase(openeew.macaddress)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "payload.latitude",
-                "pt": "msg",
-                "to": "openeew.latitude",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.longitude",
-                "pt": "msg",
-                "to": "openeew.longitude",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.city",
-                "pt": "msg",
-                "to": "openeew.city",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.country",
-                "pt": "msg",
-                "to": "openeew.country",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.first_name",
-                "pt": "msg",
-                "to": "openeew.first_name",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.uuid",
-                "pt": "msg",
-                "to": "openeew.uuid",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 970,
-        "y": 1040,
-        "wires": [
-            [
-                "b05012ba.b18de",
-                "f9537392.9851e"
-            ]
-        ]
-    },
-    {
-        "id": "ba727755.0cdc38",
-        "type": "change",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Update OpenEEW Record",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload.latitude",
-                "pt": "msg",
-                "to": "openeew.latitude",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.longitude",
-                "pt": "msg",
-                "to": "openeew.longitude",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.city",
-                "pt": "msg",
-                "to": "openeew.city",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.country",
-                "pt": "msg",
-                "to": "openeew.country",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.uuid",
-                "pt": "msg",
-                "to": "openeew.uuid",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 980,
-        "y": 1080,
-        "wires": [
-            [
-                "d1827581.4b92e",
-                "f9537392.9851e"
-            ]
-        ]
-    },
-    {
-        "id": "53942059.c63738",
-        "type": "comment",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "/OpenEEWRegistration",
-        "info": "",
-        "x": 140,
-        "y": 1020,
-        "wires": []
     },
     {
         "id": "c74eb96a.8ff8d",
@@ -5585,50 +4952,7 @@
         "name": "/activation",
         "info": "",
         "x": 100,
-        "y": 1360,
-        "wires": []
-    },
-    {
-        "id": "28ba9e73.8b67c2",
-        "type": "inject",
-        "z": "91d8d0e3.111f78",
-        "g": "6d551e1b.cd04e8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 2120,
-        "wires": [
-            [
-                "bd4857ec.0b8b38"
-            ]
-        ]
-    },
-    {
-        "id": "ae58a1b5.6c9ad",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "6d551e1b.cd04e8",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 490,
-        "y": 2120,
+        "y": 960,
         "wires": []
     },
     {
@@ -5650,8 +4974,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 710,
-        "y": 1460,
+        "x": 670,
+        "y": 1140,
         "wires": [
             [
                 "9ba900fc.f4f768",
@@ -5682,32 +5006,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 1480,
+        "x": 900,
+        "y": 1160,
         "wires": [
             [
                 "9ba900fc.f4f768",
                 "89148970.6a2a98"
-            ]
-        ]
-    },
-    {
-        "id": "528f831c.3fac7c",
-        "type": "cloudant in",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "cloudant": "4d4e4d7b.7cc1dc",
-        "database": "openeew-devices",
-        "service": "_ext_",
-        "search": "_id_",
-        "design": "",
-        "index": "",
-        "x": 590,
-        "y": 1060,
-        "wires": [
-            [
-                "2d6b749d.4cb68c"
             ]
         ]
     },
@@ -5723,28 +5027,13 @@
         "search": "_id_",
         "design": "",
         "index": "",
-        "x": 570,
-        "y": 1400,
+        "x": 610,
+        "y": 1000,
         "wires": [
             [
                 "3816a583.10ea4a"
             ]
         ]
-    },
-    {
-        "id": "f9537392.9851e",
-        "type": "cloudant out",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "cloudant": "4d4e4d7b.7cc1dc",
-        "database": "openeew-devices",
-        "service": "_ext_",
-        "payonly": true,
-        "operation": "insert",
-        "x": 1250,
-        "y": 1060,
-        "wires": []
     },
     {
         "id": "89148970.6a2a98",
@@ -5757,236 +5046,9 @@
         "service": "_ext_",
         "payonly": true,
         "operation": "insert",
-        "x": 1250,
-        "y": 1420,
+        "x": 1150,
+        "y": 1080,
         "wires": []
-    },
-    {
-        "id": "bd4857ec.0b8b38",
-        "type": "cloudant in",
-        "z": "91d8d0e3.111f78",
-        "g": "6d551e1b.cd04e8",
-        "name": "",
-        "cloudant": "4d4e4d7b.7cc1dc",
-        "database": "openeew-devices",
-        "service": "_ext_",
-        "search": "_all_",
-        "design": "",
-        "index": "",
-        "x": 290,
-        "y": 2120,
-        "wires": [
-            [
-                "ae58a1b5.6c9ad"
-            ]
-        ]
-    },
-    {
-        "id": "13540543.64f90b",
-        "type": "function",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Find Device ID",
-        "func": "// msg.topic contains the DeviceID\n// iot-2/type/OpenEEW/id/246F28CCE88C/mon\n// Grab the 5th substring\nvar words = msg.topic.split(\"/\");\n\n// Search the Cloudant DB for this device record\nmsg.payload._id = words[4];\n\nmsg.openeew = msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 460,
-        "y": 1260,
-        "wires": [
-            [
-                "319fbdbd.f0d0e2",
-                "39df4100.cedfde"
-            ]
-        ]
-    },
-    {
-        "id": "319fbdbd.f0d0e2",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 630,
-        "y": 1300,
-        "wires": []
-    },
-    {
-        "id": "39df4100.cedfde",
-        "type": "cloudant in",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "cloudant": "4d4e4d7b.7cc1dc",
-        "database": "openeew-devices",
-        "service": "_ext_",
-        "search": "_id_",
-        "design": "",
-        "index": "",
-        "x": 670,
-        "y": 1260,
-        "wires": [
-            [
-                "77101cc.7eca7e4"
-            ]
-        ]
-    },
-    {
-        "id": "77101cc.7eca7e4",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Exists",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "null"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "outputs": 2,
-        "x": 850,
-        "y": 1260,
-        "wires": [
-            [],
-            [
-                "69a01aae.b2ea44"
-            ]
-        ]
-    },
-    {
-        "id": "69a01aae.b2ea44",
-        "type": "change",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Update OpenEEW Record",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload.status",
-                "pt": "msg",
-                "to": "openeew.Action",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.LastStatusEvent",
-                "pt": "msg",
-                "to": "$toMillis(openeew.Time)",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1060,
-        "y": 1260,
-        "wires": [
-            [
-                "95fa5749.f053a8",
-                "5899726d.38237c"
-            ]
-        ]
-    },
-    {
-        "id": "5899726d.38237c",
-        "type": "cloudant out",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "cloudant": "4d4e4d7b.7cc1dc",
-        "database": "openeew-devices",
-        "service": "_ext_",
-        "payonly": true,
-        "operation": "insert",
-        "x": 1310,
-        "y": 1280,
-        "wires": []
-    },
-    {
-        "id": "95fa5749.f053a8",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Update Record",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "complete": "true",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1300,
-        "y": 1240,
-        "wires": []
-    },
-    {
-        "id": "7220682b.7f7948",
-        "type": "delay",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "5",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 270,
-        "y": 1260,
-        "wires": [
-            [
-                "13540543.64f90b"
-            ]
-        ]
-    },
-    {
-        "id": "bd5adc56.3b307",
-        "type": "comment",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "Connect / Disconnect Events",
-        "info": "",
-        "x": 160,
-        "y": 1180,
-        "wires": []
-    },
-    {
-        "id": "84b60d9b.270f18",
-        "type": "mqtt in",
-        "z": "91d8d0e3.111f78",
-        "g": "f7c2dba2.d0ba4",
-        "name": "OpenEEW Device Monitor",
-        "topic": "iot-2/type/OpenEEW/id/+/mon",
-        "qos": "2",
-        "datatype": "json",
-        "broker": "e8c39ea1.bf699",
-        "nl": false,
-        "rap": false,
-        "x": 150,
-        "y": 1220,
-        "wires": [
-            [
-                "7220682b.7f7948"
-            ]
-        ]
     },
     {
         "id": "94c18146.228a3",
@@ -6610,497 +5672,6 @@
         ]
     },
     {
-        "id": "f6f12d7c.a7f738",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Registration Version",
-        "property": "req.query.ver",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 760,
-        "y": 180,
-        "wires": [
-            [
-                "3939d61c.a2efb2"
-            ],
-            [
-                "12a11c85.7cd50b"
-            ]
-        ]
-    },
-    {
-        "id": "6d0dadc0.4e4e84",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "complete": "true",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 430,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "a1032171.e6cf9",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Check for plain content-type",
-        "property": "req.headers.content-type",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": "text/plain; charset=utf-8",
-                "vt": "str",
-                "case": true
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 500,
-        "y": 200,
-        "wires": [
-            [
-                "f6f12d7c.a7f738"
-            ],
-            [
-                "281adb37.5782f4"
-            ]
-        ]
-    },
-    {
-        "id": "12a11c85.7cd50b",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Fail Activation",
-        "links": [
-            "11cbccde.65d013"
-        ],
-        "x": 915,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "3939d61c.a2efb2",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Account Provisioning Endpoint V1",
-        "links": [
-            "2ddc96dc.3dbb92"
-        ],
-        "x": 915,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "65af511f.03b4",
-        "type": "http in",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "",
-        "url": "/OpenEEWAccountVerification",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 160,
-        "wires": [
-            [
-                "6d0dadc0.4e4e84",
-                "a1032171.e6cf9"
-            ]
-        ],
-        "info": "// nrlint no-unconnected-http-nodes:off\n"
-    },
-    {
-        "id": "1d63fd41.c7d2a3",
-        "type": "inject",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Test Case",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"email\":\"johnwalicki@gmail.com\",\"givenName\":\"John\",\"familyName\":\"Walicki\"}",
-        "payloadType": "json",
-        "x": 180,
-        "y": 320,
-        "wires": [
-            [
-                "291c0648.b95882"
-            ]
-        ]
-    },
-    {
-        "id": "291c0648.b95882",
-        "type": "change",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Set headers and payload",
-        "rules": [
-            {
-                "t": "move",
-                "p": "req",
-                "pt": "msg",
-                "to": "reqbak",
-                "tot": "msg"
-            },
-            {
-                "t": "move",
-                "p": "res",
-                "pt": "msg",
-                "to": "resbak",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.email",
-                "pt": "msg",
-                "to": "$trim(payload.email)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "payload.givenName",
-                "pt": "msg",
-                "to": "$trim(payload.givenName)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "payload.familyName",
-                "pt": "msg",
-                "to": "$trim(payload.familyName)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "headers.Content-Type",
-                "pt": "msg",
-                "to": "application/json",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "headers.Authorization",
-                "pt": "msg",
-                "to": "\"Bearer \" & $env(\"OPENEEW_API_KEY\")",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "headers.Authorization",
-                "pt": "msg",
-                "to": "Bearer HtH4eS9UaeR2v2AfdVSJeu",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 410,
-        "y": 280,
-        "wires": [
-            [
-                "a4bb7836.dbfd5"
-            ]
-        ]
-    },
-    {
-        "id": "ea040c46.5a901",
-        "type": "json",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 190,
-        "y": 280,
-        "wires": [
-            [
-                "291c0648.b95882"
-            ]
-        ]
-    },
-    {
-        "id": "a4bb7836.dbfd5",
-        "type": "http request",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "AppID verify",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "https://dashboard.openeew.com/api/verification",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 670,
-        "y": 280,
-        "wires": [
-            [
-                "58c5a396.ad5914",
-                "2c4de2b3.11b8f6"
-            ]
-        ]
-    },
-    {
-        "id": "58c5a396.ad5914",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 850,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "dc429b0.be5b6e8",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "New or Return user?",
-        "property": "payload.verified",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 700,
-        "y": 380,
-        "wires": [
-            [
-                "f00de35.a01382"
-            ],
-            [
-                "f00de35.a01382"
-            ]
-        ]
-    },
-    {
-        "id": "f00de35.a01382",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "AppID Success",
-        "links": [
-            "66ce1ea3.97ca88"
-        ],
-        "x": 895,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "281adb37.5782f4",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Account Fail",
-        "links": [
-            "11cbccde.65d013"
-        ],
-        "x": 675,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "2ddc96dc.3dbb92",
-        "type": "link in",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "AppID verify",
-        "links": [
-            "3939d61c.a2efb2"
-        ],
-        "x": 75,
-        "y": 280,
-        "wires": [
-            [
-                "ea040c46.5a901"
-            ]
-        ]
-    },
-    {
-        "id": "69c6bd74.8f06c4",
-        "type": "switch",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "Email is missing or invalid",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 450,
-        "y": 380,
-        "wires": [
-            [
-                "dc429b0.be5b6e8",
-                "fb107dac.6047b8"
-            ],
-            [
-                "abe3883e.ad8ce8"
-            ]
-        ]
-    },
-    {
-        "id": "abe3883e.ad8ce8",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "AppID Fail",
-        "links": [
-            "11cbccde.65d013"
-        ],
-        "x": 615,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "fb107dac.6047b8",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 650,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "2c4de2b3.11b8f6",
-        "type": "function",
-        "z": "91d8d0e3.111f78",
-        "g": "6eee7282.811ef4",
-        "name": "Restore http request objects",
-        "func": "// save the original request objects\nvar reqbak = msg.reqbak;\nvar resbak = msg.resbak;\nvar msgid = msg._msgid;\nvar verification = msg.payload;\n\n// reset the msg object\nmsg = {};\n\n// restore only what is needed to reply to the original http in\nmsg.req = reqbak;\nmsg.res = resbak;\nmsg.payload = verification;\nmsg._msgid = msgid;\n\nif( msg.payload.link === null ) {\n    msg.payload.link = \"https://dashboard.openeew.com\";\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 220,
-        "y": 380,
-        "wires": [
-            [
-                "69c6bd74.8f06c4"
-            ]
-        ]
-    },
-    {
-        "id": "f61050a2.0a69a",
-        "type": "catch",
-        "z": "91d8d0e3.111f78",
-        "name": "Catch Cloudant errors",
-        "scope": [
-            "528f831c.3fac7c",
-            "6a6a7390.bfd65c",
-            "f9537392.9851e",
-            "89148970.6a2a98",
-            "bd4857ec.0b8b38",
-            "39df4100.cedfde",
-            "5899726d.38237c"
-        ],
-        "uncaught": false,
-        "x": 480,
-        "y": 1160,
-        "wires": [
-            [
-                "3368bf19.2237c8"
-            ]
-        ]
-    },
-    {
-        "id": "3368bf19.2237c8",
-        "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 690,
-        "y": 1160,
-        "wires": []
-    },
-    {
         "id": "6f920bc6.6c50b4",
         "type": "ui_button",
         "z": "dbe71947.9c2ef",
@@ -7404,8 +5975,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 950,
-        "y": 1780,
+        "x": 910,
+        "y": 540,
         "wires": [
             [
                 "ef7746da.a5da3"
@@ -7458,8 +6029,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1200,
-        "y": 1760,
+        "x": 1160,
+        "y": 520,
         "wires": [
             [
                 "616abd73.3adbc4",
@@ -9047,8 +7618,8 @@
             "6c89884917168467",
             "f2a28470c3f95866"
         ],
-        "x": 115,
-        "y": 1460,
+        "x": 55,
+        "y": 1000,
         "wires": [
             [
                 "4dc5ba4e.96c96c"
@@ -9062,10 +7633,12 @@
         "g": "38984c09.dd023c",
         "name": "Record Activation ",
         "links": [
-            "76a1e3211d3e70aa"
+            "76a1e3211d3e70aa",
+            "9b38160f4a7f76ae",
+            "434b668723592621"
         ],
         "x": 455,
-        "y": 1580,
+        "y": 340,
         "wires": []
     },
     {
@@ -9073,10 +7646,10 @@
         "type": "comment",
         "z": "91d8d0e3.111f78",
         "g": "33d13166.4995c6",
-        "name": "vernaMQ testing here",
+        "name": "VerneMQ testing",
         "info": "",
-        "x": 1140,
-        "y": 160,
+        "x": 120,
+        "y": 700,
         "wires": []
     },
     {
@@ -9092,8 +7665,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1150,
-        "y": 200,
+        "x": 190,
+        "y": 740,
         "wires": []
     },
     {
@@ -9137,8 +7710,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1390,
-        "y": 240,
+        "x": 430,
+        "y": 780,
         "wires": [
             [
                 "25e77e13.2b4e8a"
@@ -9154,8 +7727,8 @@
         "links": [
             "a224ba33f87d66ad"
         ],
-        "x": 1015,
-        "y": 240,
+        "x": 55,
+        "y": 780,
         "wires": [
             [
                 "3c689c5a.0f9064",
@@ -9172,8 +7745,8 @@
         "links": [
             "66ce1ea3.97ca88"
         ],
-        "x": 1535,
-        "y": 240,
+        "x": 575,
+        "y": 780,
         "wires": []
     },
     {
@@ -9195,8 +7768,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1170,
-        "y": 280,
+        "x": 210,
+        "y": 820,
         "wires": [
             [
                 "11ca047c.12667c",
@@ -9216,14 +7789,1127 @@
         "links": [
             "11cbccde.65d013"
         ],
-        "x": 1315,
-        "y": 320,
+        "x": 355,
+        "y": 860,
         "wires": []
     },
     {
-        "id": "31a3647f.ca822c",
-        "type": "csv",
+        "id": "a224ba33f87d66ad",
+        "type": "link out",
         "z": "91d8d0e3.111f78",
+        "g": "8382a4e0.422c18",
+        "name": "verneMQ activation",
+        "links": [
+            "9d3ac070.ab012"
+        ],
+        "x": 855,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f2a28470c3f95866",
+        "type": "link out",
+        "z": "91d8d0e3.111f78",
+        "g": "33d13166.4995c6",
+        "name": "VerneMQ Cloudant",
+        "links": [
+            "76a1e3211d3e70aa",
+            "9b38160f4a7f76ae",
+            "434b668723592621"
+        ],
+        "x": 355,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "b0ebc8ee067c0b22",
+        "type": "debug",
+        "z": "91d8d0e3.111f78",
+        "g": "38984c09.dd023c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "72cd30a2f7294311",
+        "type": "http in",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "",
+        "url": "/OpenEEWRegistration",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 460,
+        "wires": [
+            [
+                "69c9c4a0b3a125d6",
+                "6e9253ba95490f45"
+            ]
+        ],
+        "info": "// nrlint no-unconnected-http-nodes:off\n"
+    },
+    {
+        "id": "cc9a48cc41bb7a9c",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "Registration Version",
+        "property": "req.query.ver",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 740,
+        "y": 460,
+        "wires": [
+            [
+                "b99b4f1386f1a6d5"
+            ],
+            [
+                "7dd7685c24ac4d72"
+            ]
+        ]
+    },
+    {
+        "id": "69c9c4a0b3a125d6",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 390,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "6e9253ba95490f45",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "Check for plain content-type",
+        "property": "req.headers.content-type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "text/plain; charset=utf-8",
+                "vt": "str",
+                "case": true
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 460,
+        "y": 480,
+        "wires": [
+            [
+                "cc9a48cc41bb7a9c"
+            ],
+            [
+                "6f23acc26b04ba1f"
+            ]
+        ]
+    },
+    {
+        "id": "6f23acc26b04ba1f",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "Registration Fail on type",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 655,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7dd7685c24ac4d72",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "Registration Fail",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 915,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b99b4f1386f1a6d5",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "e5b32b045eedbba8",
+        "name": "Endpoint V1",
+        "links": [
+            "85bde42d.c869b",
+            "9a40c5e85d7094cf"
+        ],
+        "x": 915,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d8ec81585a98f043",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Registration Version",
+        "property": "req.query.ver",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 100,
+        "wires": [
+            [
+                "335e641dfa6606e9"
+            ],
+            [
+                "dd42c05ba804c5cb"
+            ]
+        ]
+    },
+    {
+        "id": "fedf2d8d9a727a4c",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "complete": "true",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c48fa06633d3c512",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Check for plain content-type",
+        "property": "req.headers.content-type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "text/plain; charset=utf-8",
+                "vt": "str",
+                "case": true
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "d8ec81585a98f043"
+            ],
+            [
+                "e4a09176c84bb44d"
+            ]
+        ]
+    },
+    {
+        "id": "dd42c05ba804c5cb",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Fail Activation",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 915,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "335e641dfa6606e9",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Account Provisioning Endpoint V1",
+        "links": [
+            "e002fabc41131996"
+        ],
+        "x": 915,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bc0b297a2678b2a9",
+        "type": "http in",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "",
+        "url": "/OpenEEWAccountVerification",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "fedf2d8d9a727a4c",
+                "c48fa06633d3c512"
+            ]
+        ],
+        "info": "// nrlint no-unconnected-http-nodes:off\n"
+    },
+    {
+        "id": "93ad7b85ab2436b9",
+        "type": "inject",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Test Case",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"email\":\"johnwalicki@gmail.com\",\"givenName\":\"John\",\"familyName\":\"Walicki\"}",
+        "payloadType": "json",
+        "x": 180,
+        "y": 240,
+        "wires": [
+            [
+                "8b6c380277420d89"
+            ]
+        ]
+    },
+    {
+        "id": "8b6c380277420d89",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Set headers and payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "req",
+                "pt": "msg",
+                "to": "reqbak",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "res",
+                "pt": "msg",
+                "to": "resbak",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.email",
+                "pt": "msg",
+                "to": "$trim(payload.email)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.givenName",
+                "pt": "msg",
+                "to": "$trim(payload.givenName)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.familyName",
+                "pt": "msg",
+                "to": "$trim(payload.familyName)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.Content-Type",
+                "pt": "msg",
+                "to": "application/json",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.Authorization",
+                "pt": "msg",
+                "to": "\"Bearer \" & $env(\"OPENEEW_API_KEY\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "headers.Authorization",
+                "pt": "msg",
+                "to": "Bearer HtH4eS9UaeR2v2AfdVSJeu",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "04014214feec6e63"
+            ]
+        ]
+    },
+    {
+        "id": "ca200d9dcc4befa7",
+        "type": "json",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "8b6c380277420d89"
+            ]
+        ]
+    },
+    {
+        "id": "04014214feec6e63",
+        "type": "http request",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "AppID verify",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://dashboard.openeew.com/api/verification",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 670,
+        "y": 200,
+        "wires": [
+            [
+                "aa740c2fda6ccd62",
+                "08f096e60dd59bdb"
+            ]
+        ]
+    },
+    {
+        "id": "aa740c2fda6ccd62",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f92c635d15578498",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "New or Return user?",
+        "property": "payload.verified",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 700,
+        "y": 300,
+        "wires": [
+            [
+                "25c80ccc99edda23"
+            ],
+            [
+                "25c80ccc99edda23"
+            ]
+        ]
+    },
+    {
+        "id": "25c80ccc99edda23",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "AppID Success",
+        "links": [
+            "4bf550e494b4b9bb"
+        ],
+        "x": 915,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e4a09176c84bb44d",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Account Fail",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 675,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e002fabc41131996",
+        "type": "link in",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "AppID verify",
+        "links": [
+            "335e641dfa6606e9"
+        ],
+        "x": 75,
+        "y": 200,
+        "wires": [
+            [
+                "ca200d9dcc4befa7"
+            ]
+        ]
+    },
+    {
+        "id": "853740ff2bbe60dd",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "Email is missing or invalid",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "f92c635d15578498",
+                "c20da5135d450c5d"
+            ],
+            [
+                "1412ba9d4f1b21bb"
+            ]
+        ]
+    },
+    {
+        "id": "1412ba9d4f1b21bb",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "AppID Fail",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 615,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c20da5135d450c5d",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "08f096e60dd59bdb",
+        "type": "function",
+        "z": "679a7bd6a8e81949",
+        "g": "ef2758e3b985c70c",
+        "name": "Restore http request objects",
+        "func": "// save the original request objects\nvar reqbak = msg.reqbak;\nvar resbak = msg.resbak;\nvar msgid = msg._msgid;\nvar verification = msg.payload;\n\n// reset the msg object\nmsg = {};\n\n// restore only what is needed to reply to the original http in\nmsg.req = reqbak;\nmsg.res = resbak;\nmsg.payload = verification;\nmsg._msgid = msgid;\n\nif( msg.payload.link === null ) {\n    msg.payload.link = \"https://dashboard.openeew.com\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "853740ff2bbe60dd"
+            ]
+        ]
+    },
+    {
+        "id": "66b84803d9695bbd",
+        "type": "http response",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "",
+        "x": 1290,
+        "y": 660,
+        "wires": [],
+        "info": "// nrlint no-unconnected-http-nodes:off\n"
+    },
+    {
+        "id": "3b0f7a8754ea899e",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "Success:Set headers statusCode 200",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "200",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.content-type",
+                "pt": "msg",
+                "to": "application/json",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 620,
+        "wires": [
+            [
+                "66b84803d9695bbd"
+            ]
+        ]
+    },
+    {
+        "id": "13a9fa8719ba3c7b",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "Fail:   Set headers statusCode 400",
+        "rules": [
+            {
+                "t": "set",
+                "p": "statusCode",
+                "pt": "msg",
+                "to": "400",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 680,
+        "wires": [
+            [
+                "66b84803d9695bbd"
+            ]
+        ]
+    },
+    {
+        "id": "dcdc0fc24e1f3a42",
+        "type": "link in",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "Provisioning Fail Error 400",
+        "links": [
+            "1412ba9d4f1b21bb",
+            "6f23acc26b04ba1f",
+            "7dd7685c24ac4d72",
+            "dd42c05ba804c5cb",
+            "e4a09176c84bb44d"
+        ],
+        "x": 835,
+        "y": 680,
+        "wires": [
+            [
+                "13a9fa8719ba3c7b"
+            ]
+        ]
+    },
+    {
+        "id": "4bf550e494b4b9bb",
+        "type": "link in",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "Provisioning Success 200",
+        "links": [
+            "1b172277ac03faa9",
+            "25c80ccc99edda23",
+            "522c1a1c.697474"
+        ],
+        "x": 835,
+        "y": 620,
+        "wires": [
+            [
+                "3b0f7a8754ea899e"
+            ]
+        ]
+    },
+    {
+        "id": "1c8f3aca20d2e48b",
+        "type": "json",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "6685dd2178c00b1c",
+                "1b172277ac03faa9",
+                "ac9b036ce3e20e95"
+            ]
+        ]
+    },
+    {
+        "id": "6685dd2178c00b1c",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "ac9b036ce3e20e95",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload._id",
+                "pt": "msg",
+                "to": "$uppercase(payload.macaddress)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "openeew",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 840,
+        "wires": [
+            [
+                "9e4a253a0ed46f12",
+                "0828e91d605900a4"
+            ]
+        ],
+        "info": "The Flutter mobile app sends the MAC address in lowercase.  Use JSONata to uppercase the _id\nso that the Cloudant search by _id finds the\ncorrect match."
+    },
+    {
+        "id": "9e4a253a0ed46f12",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "1b172277ac03faa9",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Mobile Registration Success",
+        "links": [
+            "4bf550e494b4b9bb"
+        ],
+        "x": 315,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9a40c5e85d7094cf",
+        "type": "link in",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Reg Endpoint v1",
+        "links": [
+            "f7997610.fcfd28",
+            "b99b4f1386f1a6d5"
+        ],
+        "x": 75,
+        "y": 840,
+        "wires": [
+            [
+                "1c8f3aca20d2e48b"
+            ]
+        ]
+    },
+    {
+        "id": "ea78624d263521ad",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Exists",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 770,
+        "y": 840,
+        "wires": [
+            [
+                "f82a87cca068f448"
+            ],
+            [
+                "e42e10ef609fcce5"
+            ]
+        ]
+    },
+    {
+        "id": "f3c27d1cacba9659",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Create Record",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1240,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "dfe09c244c57fcc4",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Update Record",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1240,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "f82a87cca068f448",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "New OpenEEW Record",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "payload._id",
+                "pt": "msg",
+                "to": "$uppercase(openeew.macaddress)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.DeviceID",
+                "pt": "msg",
+                "to": "$uppercase(openeew.macaddress)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.latitude",
+                "pt": "msg",
+                "to": "openeew.latitude",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.longitude",
+                "pt": "msg",
+                "to": "openeew.longitude",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.city",
+                "pt": "msg",
+                "to": "openeew.city",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.country",
+                "pt": "msg",
+                "to": "openeew.country",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.first_name",
+                "pt": "msg",
+                "to": "openeew.first_name",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.uuid",
+                "pt": "msg",
+                "to": "openeew.uuid",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 820,
+        "wires": [
+            [
+                "f3c27d1cacba9659",
+                "59efd29a0c41395a"
+            ]
+        ]
+    },
+    {
+        "id": "e42e10ef609fcce5",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Update OpenEEW Record",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.latitude",
+                "pt": "msg",
+                "to": "openeew.latitude",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.longitude",
+                "pt": "msg",
+                "to": "openeew.longitude",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.city",
+                "pt": "msg",
+                "to": "openeew.city",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.country",
+                "pt": "msg",
+                "to": "openeew.country",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.uuid",
+                "pt": "msg",
+                "to": "openeew.uuid",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 860,
+        "wires": [
+            [
+                "dfe09c244c57fcc4",
+                "59efd29a0c41395a"
+            ]
+        ]
+    },
+    {
+        "id": "e4cd3431bfa9c7e4",
+        "type": "comment",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "/OpenEEWRegistration",
+        "info": "",
+        "x": 140,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "0828e91d605900a4",
+        "type": "cloudant in",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "cloudant": "4d4e4d7b.7cc1dc",
+        "database": "openeew-devices",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 590,
+        "y": 840,
+        "wires": [
+            [
+                "ea78624d263521ad"
+            ]
+        ]
+    },
+    {
+        "id": "59efd29a0c41395a",
+        "type": "cloudant out",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "cloudant": "4d4e4d7b.7cc1dc",
+        "database": "openeew-devices",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 1250,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "66b07f12e32a0f23",
+        "type": "csv",
+        "z": "679a7bd6a8e81949",
+        "g": "3af4ebb2eb3aecc7",
         "name": "",
         "sep": ",",
         "hdrin": "",
@@ -9235,18 +8921,19 @@
         "strings": true,
         "include_empty_strings": "",
         "include_null_values": "",
-        "x": 410,
-        "y": 880,
+        "x": 430,
+        "y": 640,
         "wires": [
             [
-                "3edfba5e.a84546"
+                "a1e0903fdcd3bde5"
             ]
         ]
     },
     {
-        "id": "fe680078.289cb",
+        "id": "7e31026eb27c13d2",
         "type": "inject",
-        "z": "91d8d0e3.111f78",
+        "z": "679a7bd6a8e81949",
+        "g": "3af4ebb2eb3aecc7",
         "name": "",
         "props": [
             {
@@ -9264,18 +8951,19 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 100,
-        "y": 880,
+        "x": 120,
+        "y": 640,
         "wires": [
             [
-                "40cd15d2.4bff4c"
+                "cc0d9c45a2c5d9b2"
             ]
         ]
     },
     {
-        "id": "4b55d15c.73643",
+        "id": "c0c7574a1140d2bc",
         "type": "debug",
-        "z": "91d8d0e3.111f78",
+        "z": "679a7bd6a8e81949",
+        "g": "3af4ebb2eb3aecc7",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -9284,14 +8972,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 490,
-        "y": 940,
+        "x": 510,
+        "y": 700,
         "wires": []
     },
     {
-        "id": "40cd15d2.4bff4c",
+        "id": "cc0d9c45a2c5d9b2",
         "type": "template",
-        "z": "91d8d0e3.111f78",
+        "z": "679a7bd6a8e81949",
+        "g": "3af4ebb2eb3aecc7",
         "name": "Nepal list",
         "field": "payload",
         "fieldType": "msg",
@@ -9299,18 +8988,19 @@
         "syntax": "mustache",
         "template": "A8032A4DD3A4,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD1A4,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD3FC,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD1A0,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD3E8,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD634,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD660,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DCC4C,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD158,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD168,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD1B0,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD3B0,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD3DC,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A4DD658,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia\nA8032A5493E0,ef3b3c72-587c-469f-97cf-c580df6b5c73,50.156556,14.386577,Roztoky,Czechia",
         "output": "str",
-        "x": 260,
-        "y": 880,
+        "x": 280,
+        "y": 640,
         "wires": [
             [
-                "31a3647f.ca822c"
+                "66b07f12e32a0f23"
             ]
         ]
     },
     {
-        "id": "3edfba5e.a84546",
+        "id": "a1e0903fdcd3bde5",
         "type": "delay",
-        "z": "91d8d0e3.111f78",
+        "z": "679a7bd6a8e81949",
+        "g": "3af4ebb2eb3aecc7",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -9322,56 +9012,334 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 190,
-        "y": 940,
+        "x": 210,
+        "y": 700,
         "wires": [
             [
-                "4b55d15c.73643",
-                "9f42931f.d4b8c8"
+                "c0c7574a1140d2bc",
+                "ac9b036ce3e20e95"
             ]
         ]
     },
     {
-        "id": "c4107e16aaa90ed0",
+        "id": "c6dbb2ff4700e4f9",
         "type": "comment",
-        "z": "91d8d0e3.111f78",
-        "name": "Manual Import of Devices to Cloudant",
+        "z": "679a7bd6a8e81949",
+        "g": "3af4ebb2eb3aecc7",
+        "name": "Manual Import of Devices in to Cloudant DB",
         "info": "",
-        "x": 190,
-        "y": 840,
+        "x": 230,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "a224ba33f87d66ad",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "8382a4e0.422c18",
-        "name": "verneMQ activation",
-        "links": [
-            "9d3ac070.ab012"
+        "id": "870b9fb32ca6ee75",
+        "type": "catch",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "Catch Cloudant errors",
+        "scope": [
+            "0828e91d605900a4",
+            "59efd29a0c41395a"
         ],
-        "x": 855,
-        "y": 560,
+        "uncaught": false,
+        "x": 560,
+        "y": 900,
+        "wires": [
+            [
+                "309cb361c9dded0d"
+            ]
+        ]
+    },
+    {
+        "id": "309cb361c9dded0d",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "2df60891489ed3cc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 900,
         "wires": []
     },
     {
-        "id": "f2a28470c3f95866",
-        "type": "link out",
-        "z": "91d8d0e3.111f78",
-        "g": "33d13166.4995c6",
-        "name": "VerneMQ Cloudant",
-        "links": [
-            "76a1e3211d3e70aa"
+        "id": "451c58f61b0e899b",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f6dff7e6a93269d4",
+        "type": "switch",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "Exists",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "else"
+            }
         ],
-        "x": 1315,
+        "checkall": "true",
+        "outputs": 2,
+        "x": 850,
+        "y": 180,
+        "wires": [
+            [],
+            [
+                "381ba8e5d4342111"
+            ]
+        ]
+    },
+    {
+        "id": "f5c7a405efee1c2b",
+        "type": "cloudant out",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "",
+        "cloudant": "4d4e4d7b.7cc1dc",
+        "database": "openeew-devices",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 1050,
         "y": 280,
         "wires": []
     },
     {
-        "id": "b0ebc8ee067c0b22",
+        "id": "9b35e9ab992bca59",
         "type": "debug",
-        "z": "91d8d0e3.111f78",
-        "g": "38984c09.dd023c",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "Update Record",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "complete": "true",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "381ba8e5d4342111",
+        "type": "change",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "Update OpenEEW Record",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.status",
+                "pt": "msg",
+                "to": "openeew.Action",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.LastStatusEvent",
+                "pt": "msg",
+                "to": "$toMillis(openeew.Time)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 260,
+        "wires": [
+            [
+                "f5c7a405efee1c2b",
+                "9b35e9ab992bca59"
+            ]
+        ]
+    },
+    {
+        "id": "907c02b67aaf24af",
+        "type": "cloudant in",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "",
+        "cloudant": "4d4e4d7b.7cc1dc",
+        "database": "openeew-devices",
+        "service": "_ext_",
+        "search": "_id_",
+        "design": "",
+        "index": "",
+        "x": 670,
+        "y": 180,
+        "wires": [
+            [
+                "f6dff7e6a93269d4"
+            ]
+        ]
+    },
+    {
+        "id": "1acdf28c938148f1",
+        "type": "comment",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "Connect / Disconnect Events",
+        "info": "",
+        "x": 160,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "64eaa696bf43a2dd",
+        "type": "delay",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "5",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "5d1141462b39b4d4"
+            ]
+        ]
+    },
+    {
+        "id": "5d1141462b39b4d4",
+        "type": "function",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "Find Device ID",
+        "func": "// msg.topic contains the DeviceID\n// iot-2/type/OpenEEW/id/246F28CCE88C/mon\n// Grab the 5th substring\nvar words = msg.topic.split(\"/\");\n\n// Search the Cloudant DB for this device record\nmsg.payload._id = words[4];\n\nmsg.openeew = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "451c58f61b0e899b",
+                "907c02b67aaf24af"
+            ]
+        ]
+    },
+    {
+        "id": "30a5f73e73bf98cd",
+        "type": "mqtt in",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "OpenEEW Device Monitor",
+        "topic": "iot-2/type/OpenEEW/id/+/mon",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "e8c39ea1.bf699",
+        "nl": false,
+        "rap": false,
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "64eaa696bf43a2dd"
+            ]
+        ]
+    },
+    {
+        "id": "20a3a7739423e9a7",
+        "type": "catch",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "Catch Cloudant errors",
+        "scope": [
+            "f5c7a405efee1c2b",
+            "907c02b67aaf24af"
+        ],
+        "uncaught": false,
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "3dd4de92a9bb9b70"
+            ]
+        ]
+    },
+    {
+        "id": "3dd4de92a9bb9b70",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "2d4a3aca377038b0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1c58b1f870d2c22e",
+        "type": "device-manager",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "auth": "api",
+        "name": "List All OpenEEW Devices",
+        "apiKey": "612b8eb7.d1904",
+        "deviceType": "OpenEEW",
+        "method": "GetAll",
+        "deviceId": "",
+        "password": "",
+        "ignore": false,
+        "x": 320,
+        "y": 500,
+        "wires": [
+            [
+                "6604feb471fe8aa2",
+                "4f03aeabe8037a1f"
+            ]
+        ]
+    },
+    {
+        "id": "6604feb471fe8aa2",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -9380,8 +9348,322 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1330,
-        "y": 1680,
+        "x": 550,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3e928a6cf42c947f",
+        "type": "inject",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 500,
+        "wires": [
+            [
+                "1c58b1f870d2c22e"
+            ]
+        ]
+    },
+    {
+        "id": "21606d7777b31fbc",
+        "type": "device-manager",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "auth": "api",
+        "name": "Get Location Details",
+        "apiKey": "612b8eb7.d1904",
+        "deviceType": "OpenEEW",
+        "method": "GetLoc",
+        "deviceId": "",
+        "password": "",
+        "ignore": false,
+        "x": 340,
+        "y": 580,
+        "wires": [
+            [
+                "565d991b8e451c80",
+                "a0fe0a4f285ace8e"
+            ]
+        ]
+    },
+    {
+        "id": "4f03aeabe8037a1f",
+        "type": "function",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "Get Details",
+        "func": "//var devices = [];\nfor( i=0; i < msg.payload.results.length; i++ ) {\n    //devices.push(msg.payload.results[i].deviceId);\n    var newmsg = {};\n    newmsg.topic = msg.payload.results[i].deviceId;\n    newmsg.parts = {\"count\" : msg.payload.results.length };\n    newmsg.payload = {\"deviceId\" : msg.payload.results[i].deviceId } ;\n    node.send(newmsg);\n}\n//msg.payload = devices;\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 500,
+        "wires": [
+            [
+                "015beaaabeac0416",
+                "21606d7777b31fbc"
+            ]
+        ]
+    },
+    {
+        "id": "015beaaabeac0416",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "0659aa7fa0590815",
+        "type": "inject",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"deviceId\":\"246F28CCE88C\"}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 580,
+        "wires": [
+            [
+                "21606d7777b31fbc"
+            ]
+        ]
+    },
+    {
+        "id": "565d991b8e451c80",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "74f12805dbc783c3",
+        "type": "join",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "count",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "359eb44fb2ee58df"
+            ]
+        ]
+    },
+    {
+        "id": "359eb44fb2ee58df",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a0fe0a4f285ace8e",
+        "type": "change",
+        "z": "c144587dbcbcc3b8",
+        "g": "a581fa89366d3b78",
+        "name": "Add deviceId",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.deviceID",
+                "pt": "msg",
+                "to": "topic",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "74f12805dbc783c3"
+            ]
+        ]
+    },
+    {
+        "id": "1de5d14138b04f9e",
+        "type": "inject",
+        "z": "c144587dbcbcc3b8",
+        "g": "2ab294f3e4b3a62c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 740,
+        "wires": [
+            [
+                "69916a6098d820ac"
+            ]
+        ]
+    },
+    {
+        "id": "55d01d59e1a391bd",
+        "type": "debug",
+        "z": "c144587dbcbcc3b8",
+        "g": "2ab294f3e4b3a62c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "69916a6098d820ac",
+        "type": "cloudant in",
+        "z": "c144587dbcbcc3b8",
+        "g": "2ab294f3e4b3a62c",
+        "name": "",
+        "cloudant": "4d4e4d7b.7cc1dc",
+        "database": "openeew-devices",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 290,
+        "y": 740,
+        "wires": [
+            [
+                "55d01d59e1a391bd"
+            ]
+        ]
+    },
+    {
+        "id": "dfeb6f4df66e3c7f",
+        "type": "comment",
+        "z": "c144587dbcbcc3b8",
+        "name": "Debug Sections",
+        "info": "",
+        "x": 600,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "5bfa15c09e1ed551",
+        "type": "catch",
+        "z": "91d8d0e3.111f78",
+        "g": "f7c2dba2.d0ba4",
+        "name": "Catch Cloudant errors",
+        "scope": [
+            "6a6a7390.bfd65c",
+            "89148970.6a2a98"
+        ],
+        "uncaught": false,
+        "x": 880,
+        "y": 960,
+        "wires": [
+            [
+                "475bfe278f8c3436"
+            ]
+        ]
+    },
+    {
+        "id": "475bfe278f8c3436",
+        "type": "debug",
+        "z": "91d8d0e3.111f78",
+        "g": "f7c2dba2.d0ba4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 960,
         "wires": []
     }
 ]
