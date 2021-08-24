@@ -370,9 +370,7 @@
             "b0ebc8ee067c0b22"
         ],
         "x": 14,
-        "y": 299,
-        "w": 1392,
-        "h": 342
+        "y": 299
     },
     {
         "id": "737f93ad.6da5fc",
@@ -394,9 +392,7 @@
             "66ce1ea3.97ca88"
         ],
         "x": 694,
-        "y": 719,
-        "w": 572,
-        "h": 142
+        "y": 719
     },
     {
         "id": "8382a4e0.422c18",
@@ -421,9 +417,7 @@
             "a224ba33f87d66ad"
         ],
         "x": 14,
-        "y": 119,
-        "w": 882,
-        "h": 162
+        "y": 119
     },
     {
         "id": "f7c2dba2.d0ba4",
@@ -454,9 +448,7 @@
             "475bfe278f8c3436"
         ],
         "x": 14,
-        "y": 919,
-        "w": 1252,
-        "h": 282
+        "y": 919
     },
     {
         "id": "fc79d93.5232128",
@@ -475,9 +467,7 @@
             "4e8733b7cd6710dd"
         ],
         "x": 14,
-        "y": 19,
-        "w": 472,
-        "h": 82
+        "y": 19
     },
     {
         "id": "9e4cb2b1.53e0a",
@@ -715,9 +705,7 @@
             "f2a28470c3f95866"
         ],
         "x": 14,
-        "y": 659,
-        "w": 602,
-        "h": 242
+        "y": 659
     },
     {
         "id": "e5b32b045eedbba8",
@@ -746,44 +734,6 @@
         "h": 142
     },
     {
-        "id": "ef2758e3b985c70c",
-        "type": "group",
-        "z": "679a7bd6a8e81949",
-        "name": "OpenEEW User Account Endpoint (Mobile App)",
-        "style": {
-            "stroke": "#ff0000",
-            "fill": "#ffefbf",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "d8ec81585a98f043",
-            "fedf2d8d9a727a4c",
-            "c48fa06633d3c512",
-            "dd42c05ba804c5cb",
-            "335e641dfa6606e9",
-            "bc0b297a2678b2a9",
-            "93ad7b85ab2436b9",
-            "8b6c380277420d89",
-            "ca200d9dcc4befa7",
-            "04014214feec6e63",
-            "aa740c2fda6ccd62",
-            "f92c635d15578498",
-            "25c80ccc99edda23",
-            "e4a09176c84bb44d",
-            "e002fabc41131996",
-            "853740ff2bbe60dd",
-            "1412ba9d4f1b21bb",
-            "c20da5135d450c5d",
-            "08f096e60dd59bdb"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 942,
-        "h": 342
-    },
-    {
         "id": "0d920719a6f72558",
         "type": "group",
         "z": "679a7bd6a8e81949",
@@ -796,16 +746,18 @@
             "color": "#000000"
         },
         "nodes": [
-            "66b84803d9695bbd",
             "3b0f7a8754ea899e",
             "13a9fa8719ba3c7b",
             "dcdc0fc24e1f3a42",
-            "4bf550e494b4b9bb"
+            "4bf550e494b4b9bb",
+            "c43b26b35c5ea101",
+            "a20af26335dcfc5f",
+            "d29257f84a80feab"
         ],
         "x": 794,
-        "y": 579,
+        "y": 559,
         "w": 572,
-        "h": 142
+        "h": 182
     },
     {
         "id": "2df60891489ed3cc",
@@ -869,9 +821,7 @@
             "3dd4de92a9bb9b70"
         ],
         "x": 14,
-        "y": 39,
-        "w": 1152,
-        "h": 282
+        "y": 39
     },
     {
         "id": "a581fa89366d3b78",
@@ -899,9 +849,7 @@
             "a0fe0a4f285ace8e"
         ],
         "x": 14,
-        "y": 419,
-        "w": 972,
-        "h": 242
+        "y": 419
     },
     {
         "id": "2ab294f3e4b3a62c",
@@ -921,9 +869,7 @@
             "69916a6098d820ac"
         ],
         "x": 14,
-        "y": 699,
-        "w": 592,
-        "h": 82
+        "y": 699
     },
     {
         "id": "3af4ebb2eb3aecc7",
@@ -949,6 +895,44 @@
         "y": 559,
         "w": 612,
         "h": 182
+    },
+    {
+        "id": "07e0649c93a6cff9",
+        "type": "group",
+        "z": "679a7bd6a8e81949",
+        "name": "OpenEEW User Account Endpoint (Mobile App)",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#ffefbf",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "fbae5346.aa0548",
+            "9c111ee9.e908e",
+            "cb3364c3.ab12f",
+            "b488378e.cadc68",
+            "9df003d.b871b",
+            "c67bf4cc.d5fe08",
+            "c2844c0c.97a8e8",
+            "38bd1cba.1673d4",
+            "1188e665.d4dcba",
+            "9a04a999.1370c",
+            "9bbbb277.d6d25",
+            "2f4f2f7a.989e48",
+            "db4706fa.391928",
+            "92ada263.c2436",
+            "718e419e.877548",
+            "37694374.d905bc",
+            "6456b2f7.dd8a6c",
+            "e3a416d6.51f408",
+            "972d05c4.1b491"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 942,
+        "h": 362
     },
     {
         "id": "c8ae23c4.05134",
@@ -7977,468 +7961,6 @@
         "wires": []
     },
     {
-        "id": "d8ec81585a98f043",
-        "type": "switch",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Registration Version",
-        "property": "req.query.ver",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 760,
-        "y": 100,
-        "wires": [
-            [
-                "335e641dfa6606e9"
-            ],
-            [
-                "dd42c05ba804c5cb"
-            ]
-        ]
-    },
-    {
-        "id": "fedf2d8d9a727a4c",
-        "type": "debug",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "complete": "true",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 430,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "c48fa06633d3c512",
-        "type": "switch",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Check for plain content-type",
-        "property": "req.headers.content-type",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": "text/plain; charset=utf-8",
-                "vt": "str",
-                "case": true
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 500,
-        "y": 120,
-        "wires": [
-            [
-                "d8ec81585a98f043"
-            ],
-            [
-                "e4a09176c84bb44d"
-            ]
-        ]
-    },
-    {
-        "id": "dd42c05ba804c5cb",
-        "type": "link out",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Fail Activation",
-        "links": [
-            "dcdc0fc24e1f3a42"
-        ],
-        "x": 915,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "335e641dfa6606e9",
-        "type": "link out",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Account Provisioning Endpoint V1",
-        "links": [
-            "e002fabc41131996"
-        ],
-        "x": 915,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "bc0b297a2678b2a9",
-        "type": "http in",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "",
-        "url": "/OpenEEWAccountVerification",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 80,
-        "wires": [
-            [
-                "fedf2d8d9a727a4c",
-                "c48fa06633d3c512"
-            ]
-        ],
-        "info": "// nrlint no-unconnected-http-nodes:off\n"
-    },
-    {
-        "id": "93ad7b85ab2436b9",
-        "type": "inject",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Test Case",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"email\":\"johnwalicki@gmail.com\",\"givenName\":\"John\",\"familyName\":\"Walicki\"}",
-        "payloadType": "json",
-        "x": 180,
-        "y": 240,
-        "wires": [
-            [
-                "8b6c380277420d89"
-            ]
-        ]
-    },
-    {
-        "id": "8b6c380277420d89",
-        "type": "change",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Set headers and payload",
-        "rules": [
-            {
-                "t": "move",
-                "p": "req",
-                "pt": "msg",
-                "to": "reqbak",
-                "tot": "msg"
-            },
-            {
-                "t": "move",
-                "p": "res",
-                "pt": "msg",
-                "to": "resbak",
-                "tot": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload.email",
-                "pt": "msg",
-                "to": "$trim(payload.email)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "payload.givenName",
-                "pt": "msg",
-                "to": "$trim(payload.givenName)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "payload.familyName",
-                "pt": "msg",
-                "to": "$trim(payload.familyName)",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "headers.Content-Type",
-                "pt": "msg",
-                "to": "application/json",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "headers.Authorization",
-                "pt": "msg",
-                "to": "\"Bearer \" & $env(\"OPENEEW_API_KEY\")",
-                "tot": "jsonata"
-            },
-            {
-                "t": "set",
-                "p": "headers.Authorization",
-                "pt": "msg",
-                "to": "Bearer HtH4eS9UaeR2v2AfdVSJeu",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 410,
-        "y": 200,
-        "wires": [
-            [
-                "04014214feec6e63"
-            ]
-        ]
-    },
-    {
-        "id": "ca200d9dcc4befa7",
-        "type": "json",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 190,
-        "y": 200,
-        "wires": [
-            [
-                "8b6c380277420d89"
-            ]
-        ]
-    },
-    {
-        "id": "04014214feec6e63",
-        "type": "http request",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "AppID verify",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "https://dashboard.openeew.com/api/verification",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 670,
-        "y": 200,
-        "wires": [
-            [
-                "aa740c2fda6ccd62",
-                "08f096e60dd59bdb"
-            ]
-        ]
-    },
-    {
-        "id": "aa740c2fda6ccd62",
-        "type": "debug",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 850,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "f92c635d15578498",
-        "type": "switch",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "New or Return user?",
-        "property": "payload.verified",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 700,
-        "y": 300,
-        "wires": [
-            [
-                "25c80ccc99edda23"
-            ],
-            [
-                "25c80ccc99edda23"
-            ]
-        ]
-    },
-    {
-        "id": "25c80ccc99edda23",
-        "type": "link out",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "AppID Success",
-        "links": [
-            "4bf550e494b4b9bb"
-        ],
-        "x": 915,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "e4a09176c84bb44d",
-        "type": "link out",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Account Fail",
-        "links": [
-            "dcdc0fc24e1f3a42"
-        ],
-        "x": 675,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "e002fabc41131996",
-        "type": "link in",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "AppID verify",
-        "links": [
-            "335e641dfa6606e9"
-        ],
-        "x": 75,
-        "y": 200,
-        "wires": [
-            [
-                "ca200d9dcc4befa7"
-            ]
-        ]
-    },
-    {
-        "id": "853740ff2bbe60dd",
-        "type": "switch",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "Email is missing or invalid",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 450,
-        "y": 300,
-        "wires": [
-            [
-                "f92c635d15578498",
-                "c20da5135d450c5d"
-            ],
-            [
-                "1412ba9d4f1b21bb"
-            ]
-        ]
-    },
-    {
-        "id": "1412ba9d4f1b21bb",
-        "type": "link out",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "AppID Fail",
-        "links": [
-            "dcdc0fc24e1f3a42"
-        ],
-        "x": 615,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "c20da5135d450c5d",
-        "type": "debug",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 650,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "08f096e60dd59bdb",
-        "type": "function",
-        "z": "679a7bd6a8e81949",
-        "g": "ef2758e3b985c70c",
-        "name": "Restore http request objects",
-        "func": "// save the original request objects\nvar reqbak = msg.reqbak;\nvar resbak = msg.resbak;\nvar msgid = msg._msgid;\nvar verification = msg.payload;\n\n// reset the msg object\nmsg = {};\n\n// restore only what is needed to reply to the original http in\nmsg.req = reqbak;\nmsg.res = resbak;\nmsg.payload = verification;\nmsg._msgid = msgid;\n\nif( msg.payload.link === null ) {\n    msg.payload.link = \"https://dashboard.openeew.com\";\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 220,
-        "y": 300,
-        "wires": [
-            [
-                "853740ff2bbe60dd"
-            ]
-        ]
-    },
-    {
-        "id": "66b84803d9695bbd",
-        "type": "http response",
-        "z": "679a7bd6a8e81949",
-        "g": "0d920719a6f72558",
-        "name": "",
-        "x": 1290,
-        "y": 660,
-        "wires": [],
-        "info": "// nrlint no-unconnected-http-nodes:off\n"
-    },
-    {
         "id": "3b0f7a8754ea899e",
         "type": "change",
         "z": "679a7bd6a8e81949",
@@ -8466,10 +7988,10 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 620,
+        "y": 640,
         "wires": [
             [
-                "66b84803d9695bbd"
+                "c43b26b35c5ea101"
             ]
         ]
     },
@@ -8494,10 +8016,10 @@
         "to": "",
         "reg": false,
         "x": 1040,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
-                "66b84803d9695bbd"
+                "c43b26b35c5ea101"
             ]
         ]
     },
@@ -8512,10 +8034,13 @@
             "6f23acc26b04ba1f",
             "7dd7685c24ac4d72",
             "dd42c05ba804c5cb",
-            "e4a09176c84bb44d"
+            "e4a09176c84bb44d",
+            "2f4f2f7a.989e48",
+            "db4706fa.391928",
+            "e3a416d6.51f408"
         ],
         "x": 835,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "13a9fa8719ba3c7b"
@@ -8531,10 +8056,11 @@
         "links": [
             "1b172277ac03faa9",
             "25c80ccc99edda23",
-            "522c1a1c.697474"
+            "522c1a1c.697474",
+            "6456b2f7.dd8a6c"
         ],
         "x": 835,
-        "y": 620,
+        "y": 640,
         "wires": [
             [
                 "3b0f7a8754ea899e"
@@ -9664,6 +9190,503 @@
         "statusType": "auto",
         "x": 1110,
         "y": 960,
+        "wires": []
+    },
+    {
+        "id": "c43b26b35c5ea101",
+        "type": "http response",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1290,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "fbae5346.aa0548",
+        "type": "http in",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "",
+        "url": "/OpenEEWAccountVerification",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 60,
+        "wires": [
+            [
+                "9c111ee9.e908e",
+                "9a04a999.1370c"
+            ]
+        ]
+    },
+    {
+        "id": "9c111ee9.e908e",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "incoming",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cb3364c3.ab12f",
+        "type": "json",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "b488378e.cadc68"
+            ]
+        ]
+    },
+    {
+        "id": "b488378e.cadc68",
+        "type": "change",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Set headers and payload",
+        "rules": [
+            {
+                "t": "move",
+                "p": "req",
+                "pt": "msg",
+                "to": "reqbak",
+                "tot": "msg"
+            },
+            {
+                "t": "move",
+                "p": "res",
+                "pt": "msg",
+                "to": "resbak",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.email",
+                "pt": "msg",
+                "to": "$trim(payload.email)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.givenName",
+                "pt": "msg",
+                "to": "$trim(payload.givenName)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload.familyName",
+                "pt": "msg",
+                "to": "$trim(payload.familyName)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "headers.Content-Type",
+                "pt": "msg",
+                "to": "application/json",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "headers.Authorization",
+                "pt": "msg",
+                "to": "\"Bearer \" & $env(\"OPENEEW_API_KEY\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "headers.Authorization",
+                "pt": "msg",
+                "to": "Bearer HtH4eS9UaeR2v2AfdVSJeu",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "9df003d.b871b",
+                "c67bf4cc.d5fe08"
+            ]
+        ]
+    },
+    {
+        "id": "9df003d.b871b",
+        "type": "http request",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "AppID Verify",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://dashboard.openeew.com/api/verification",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 630,
+        "y": 200,
+        "wires": [
+            [
+                "c2844c0c.97a8e8",
+                "972d05c4.1b491"
+            ]
+        ]
+    },
+    {
+        "id": "c67bf4cc.d5fe08",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Move res/req",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c2844c0c.97a8e8",
+        "type": "function",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Restore original HTTP request objects",
+        "func": "// save the original request objects\nvar reqbak = msg.reqbak;\nvar resbak = msg.resbak;\nvar verification = msg.payload;\n\n// reset the msg object\nmsg = {};\ndelete msg._msgid;\n\n// restore only what is needed to reply to the original http in\nmsg.req = reqbak;\nmsg.res = resbak;\nmsg.payload = verification;\n\nif( msg.payload.link === null ) {\n    msg.payload.link = \"https://dashboard.openeew.com\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "92ada263.c2436"
+            ]
+        ]
+    },
+    {
+        "id": "38bd1cba.1673d4",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "outgoing",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1188e665.d4dcba",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Registration Version",
+        "property": "req.query.ver",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 740,
+        "y": 80,
+        "wires": [
+            [
+                "9bbbb277.d6d25"
+            ],
+            [
+                "2f4f2f7a.989e48"
+            ]
+        ]
+    },
+    {
+        "id": "9a04a999.1370c",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Check for plain content-type",
+        "property": "req.headers.content-type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "text/plain; charset=utf-8",
+                "vt": "str",
+                "case": true
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "1188e665.d4dcba"
+            ],
+            [
+                "db4706fa.391928"
+            ]
+        ]
+    },
+    {
+        "id": "9bbbb277.d6d25",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Account Provisioning Endpoint V1",
+        "links": [
+            "37694374.d905bc"
+        ],
+        "x": 915,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "2f4f2f7a.989e48",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Fail Activation",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 915,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "db4706fa.391928",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "Account Fail",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 655,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "92ada263.c2436",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "Email is missing or invalid",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 550,
+        "y": 300,
+        "wires": [
+            [
+                "718e419e.877548",
+                "38bd1cba.1673d4"
+            ],
+            [
+                "e3a416d6.51f408"
+            ]
+        ]
+    },
+    {
+        "id": "718e419e.877548",
+        "type": "switch",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "New or Return user?",
+        "property": "payload.verified",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 760,
+        "y": 300,
+        "wires": [
+            [
+                "6456b2f7.dd8a6c"
+            ],
+            [
+                "6456b2f7.dd8a6c"
+            ]
+        ]
+    },
+    {
+        "id": "37694374.d905bc",
+        "type": "link in",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "AccountVerification",
+        "links": [
+            "9bbbb277.d6d25"
+        ],
+        "x": 75,
+        "y": 200,
+        "wires": [
+            [
+                "cb3364c3.ab12f"
+            ]
+        ]
+    },
+    {
+        "id": "6456b2f7.dd8a6c",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "AppID Success",
+        "links": [
+            "4bf550e494b4b9bb"
+        ],
+        "x": 915,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e3a416d6.51f408",
+        "type": "link out",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "AppID Fail",
+        "links": [
+            "dcdc0fc24e1f3a42"
+        ],
+        "x": 675,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "972d05c4.1b491",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "07e0649c93a6cff9",
+        "name": "AppID result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a20af26335dcfc5f",
+        "type": "catch",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "Catch HTTP errors",
+        "scope": [
+            "72cd30a2f7294311",
+            "c43b26b35c5ea101",
+            "fbae5346.aa0548",
+            "9df003d.b871b"
+        ],
+        "uncaught": false,
+        "x": 990,
+        "y": 600,
+        "wires": [
+            [
+                "d29257f84a80feab"
+            ]
+        ]
+    },
+    {
+        "id": "d29257f84a80feab",
+        "type": "debug",
+        "z": "679a7bd6a8e81949",
+        "g": "0d920719a6f72558",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 600,
         "wires": []
     }
 ]

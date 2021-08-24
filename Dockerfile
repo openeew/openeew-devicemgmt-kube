@@ -18,7 +18,7 @@ COPY ./flow.json /opt/app-root/data/flows.json
 COPY ./flow_cred.json /opt/app-root/data/flows_cred.json
 
 ## Release image
-FROM registry.access.redhat.com/ubi8/nodejs-14-minimal:latest
+FROM registry.access.redhat.com/ubi8/nodejs-14-minimal:1-23
 
 USER 0
 

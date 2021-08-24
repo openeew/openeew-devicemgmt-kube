@@ -2,7 +2,7 @@
 
 DOCKERHUB_ID:=us.icr.io/openeew-devicemgmt
 IMG_NAME:="openeew-devicemgmt"
-IMG_VERSION:="2.0"
+IMG_VERSION:="2.2"
 ARCH:="amd64"
 
 # Store the secrets in a .env file  (see ./.env.example)
@@ -31,17 +31,19 @@ build:
 	docker image prune --filter label=stage=builder --force
 
 dev: stop build
-	docker run -it --name ${IMG_NAME} \
-          $(DOCKERHUB_ID)/$(IMG_NAME):$(IMG_VERSION) /bin/bash
+	docker run -it \
+			--name ${IMG_NAME} \
+			--env-file secrets/env.list \
+			-p 1880:1880 \
+			$(DOCKERHUB_ID)/$(IMG_NAME):$(IMG_VERSION) /bin/bash
 
 run: stop
 	docker run -it \
-          --name ${IMG_NAME} \
-										--env-file secrets/env.list \
-          --restart unless-stopped \
-          -p 1880:1880 \
-          --restart unless-stopped \
-          $(DOCKERHUB_ID)/$(IMG_NAME):$(IMG_VERSION)
+			--name ${IMG_NAME} \
+			--env-file secrets/env.list \
+			--restart unless-stopped \
+			-p 1880:1880 \
+			$(DOCKERHUB_ID)/$(IMG_NAME):$(IMG_VERSION)
 
 test:
 	xdg-open http://127.0.0.1:1880/admin
@@ -54,7 +56,9 @@ push:
 
 kube:
 	echo kubectl apply -f yaml/devicemgmt-v11.yaml --namespace openeew-devicemgmt
-	kubectl apply -f yaml/devicemgmt-v11.yaml --namespace default
+	echo kubectl apply -f yaml/devicemgmt-v11.yaml --namespace default
+	kubectl delete deployment openeew-devicemgmt --namespace default
+	kubectl apply -f yaml/devicemgmt-22.yaml --namespace default
 
 
 stop:
