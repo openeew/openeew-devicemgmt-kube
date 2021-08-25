@@ -25,7 +25,7 @@
         "node-red-contrib-ui-svg": "2.x"
     },
     "scripts": {
-        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS --userDir /data"
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS --userDir /app/root/data"
     },
     "node-red": {
         "settings": {

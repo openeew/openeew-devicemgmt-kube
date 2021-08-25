@@ -58,7 +58,7 @@ kube:
 	echo kubectl apply -f yaml/devicemgmt-v11.yaml --namespace openeew-devicemgmt
 	echo kubectl apply -f yaml/devicemgmt-v11.yaml --namespace default
 	kubectl delete deployment openeew-devicemgmt --namespace default
-	kubectl apply -f yaml/devicemgmt-22.yaml --namespace default
+	kubectl apply -f devicemgmt.yaml --namespace default
 
 
 stop:
