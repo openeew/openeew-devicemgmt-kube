@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: devicemgmt
-        image: us.icr.io/openeew-devicemgmt/openeew-devicemgmt:2.3
+        image: us.icr.io/openeew-devicemgmt/openeew-devicemgmt:2.4
         ports:
         - containerPort: 1880
         envFrom:

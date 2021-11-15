@@ -2,7 +2,7 @@
 
 DOCKERHUB_ID:=us.icr.io/openeew-devicemgmt
 IMG_NAME:="openeew-devicemgmt"
-IMG_VERSION:="2.3"
+IMG_VERSION:="2.4"
 ARCH:="amd64"
 
 # Store the secrets in a .env file  (see ./.env.example)
